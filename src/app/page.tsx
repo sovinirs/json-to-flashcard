@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect } from "react";
 import FlashCard from "./components/FlashCard";
-import type { Questions, Question } from "./types";
+import type { Questions } from "./types";
 
 export default function Home() {
   const [questions, setQuestions] = useState<Questions | null>(null);
