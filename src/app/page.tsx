@@ -1,101 +1,106 @@
-import Image from "next/image";
+"use client";
+
+import React, { useState, useEffect } from "react";
+import FlashCard from "./components/FlashCard";
+import type { Questions, Question } from "./types";
 
 export default function Home() {
-  return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
-              src/app/page.tsx
-            </code>
-            .
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
+  const [questions, setQuestions] = useState<Questions | null>(null);
+  const [loading, setLoading] = useState(true);
+  const [questionQueue, setQuestionQueue] = useState<number[]>([]);
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
-        </div>
-      </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
-    </div>
+  useEffect(() => {
+    localStorage.removeItem("incorrectQuestions");
+
+    const loadQuestions = async () => {
+      try {
+        const response = await fetch("/data/questions.json");
+        const data = await response.json();
+        setQuestions(data);
+
+        // Initialize question queue with sequential indices
+        const indices = Array.from(
+          { length: data.questions.length },
+          (_, i) => i
+        );
+        setQuestionQueue(indices);
+      } catch (error) {
+        console.error("Error loading questions:", error);
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    loadQuestions();
+  }, []);
+
+  const handleNext = () => {
+    if (!questions) return;
+
+    // Get incorrect question IDs from localStorage
+    const incorrectQuestions = JSON.parse(
+      localStorage.getItem("incorrectQuestions") || "[]"
+    );
+
+    // Remove current question from queue
+    const newQueue = [...questionQueue];
+    newQueue.shift();
+
+    // If we're running low on questions, check if we need to add incorrect ones
+    if (newQueue.length < 3) {
+      // Find indices of incorrect questions
+      const incorrectIndices = questions.questions
+        .map((q, index) => (incorrectQuestions.includes(q.id) ? index : -1))
+        .filter((index) => index !== -1);
+
+      // Add incorrect questions that aren't already in the queue
+      incorrectIndices.forEach((index) => {
+        if (!newQueue.includes(index)) {
+          newQueue.push(index);
+        }
+      });
+    }
+
+    // If queue is empty, we're done
+    if (newQueue.length === 0) {
+      // You could handle completion here
+      alert("You've completed all questions!");
+      return;
+    }
+
+    setQuestionQueue(newQueue);
+  };
+
+  if (loading) {
+    return (
+      <div className="min-h-screen flex items-center justify-center">
+        <div className="text-xl">Loading questions...</div>
+      </div>
+    );
+  }
+
+  if (!questions || questionQueue.length === 0) {
+    return (
+      <div className="min-h-screen flex items-center justify-center">
+        <div className="text-xl text-red-500">Error loading questions</div>
+      </div>
+    );
+  }
+
+  const currentQuestionIndex = questionQueue[0];
+  const currentQuestion = questions.questions[currentQuestionIndex];
+  const progress = questions.questions.length - questionQueue.length + 1;
+
+  return (
+    <main className="min-h-screen bg-gray-50 py-8">
+      <div className="container mx-auto px-4">
+        <FlashCard
+          question={currentQuestion}
+          onNext={handleNext}
+          totalQuestions={questions.questions.length}
+          currentIndex={progress - 1}
+        />
+      </div>
+    </main>
   );
 }
