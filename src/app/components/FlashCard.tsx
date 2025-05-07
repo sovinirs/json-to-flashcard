@@ -17,8 +17,6 @@ interface FlashCardProps {
 export default function FlashCard({
   question,
   onNext,
-  totalQuestions,
-  currentIndex,
   correctAnswers,
   incorrectAnswers,
   setCorrectAnswers,
