@@ -1,2754 +1,1310 @@
 {
   "questions": [
     {
-      "question": "Agile software development is best characterized by which of the following?",
-      "correct_answer": "C",
+      "id": "Q1",
+      "question": "Which of the following is not calculated when determining an estimation prediction interval?",
       "options": {
-        "A": "Strict, phased approach with minimal customer collaboration",
-        "B": "Comprehensive documentation over working software",
-        "C": "Iterative development with frequent customer feedback",
-        "D": "Infrequent testing and limited communication"
+        "A": "Unbiased estimate",
+        "B": "Pessimistic estimate",
+        "C": "Most likely estimate",
+        "D": "Optimistic estimate"
       },
-      "id": "Q1"
+      "correct_answer": "A"
     },
     {
-      "question": "Which principle is not part of the Agile Manifesto?",
-      "correct_answer": "D",
+      "id": "Q2",
+      "question": "Which of the following best describes how to calculate a 70% confidence interval from a set of individual estimates of project components?",
       "options": {
-        "A": "Individuals and interactions over processes and tools",
-        "B": "Working software over comprehensive documentation",
-        "C": "Customer collaboration over contract negotiation",
-        "D": "Extending deadlines indefinitely to accommodate all scope changes"
+        "A": "Expected value of the total estimate plus and minus twice the standard deviation of the total",
+        "B": "Expected value of the total estimate plus and minus the standard deviation of the total",
+        "C": "(maximum estimate value − minimum estimate value) / 6"
       },
-      "id": "Q2"
+      "correct_answer": "B"
     },
     {
-      "question": "Which of the following is often cited as a potential limitation or challenge of agile methods?",
-      "correct_answer": "C",
+      "id": "Q3",
+      "question": "Which of the following is *not* an approach for validating an estimate?",
       "options": {
-        "A": "They make team communication impossible",
-        "B": "They eliminate the need for any architecture planning",
-        "C": "They can be harder to scale for large, regulated projects",
-        "D": "They forbid the use of any documentation or tracking tools"
+        "A": "Compare a bottom‑up estimate with a top‑down estimate",
+        "B": "Compare the estimate against its BAG",
+        "C": "Compare a parametric estimate with a bottom‑up estimate",
+        "D": "Estimate using different size measures and compare"
       },
-      "id": "Q3"
+      "correct_answer": "B"
     },
     {
-      "question": "In an agile iteration, teams typically:",
-      "correct_answer": "B",
+      "id": "Q4",
+      "question": "Which of the following is not a component of the Rayleigh‑Norden estimation equation?",
       "options": {
-        "A": "Complete a single waterfall phase (e.g., only design)",
-        "B": "Deliver a tested, working increment of the product",
-        "C": "Stop all development in the middle for a lengthy plan update",
-        "D": "Work alone without any customer interaction"
+        "A": "Effort available to team",
+        "B": "Development time",
+        "C": "Maturity level of team",
+        "D": "Technology constant"
       },
-      "id": "Q4"
+      "correct_answer": "C"
     },
     {
-      "question": "Which of the following statements aligns best with agile\u2019s emphasis on rapid feedback?",
-      "correct_answer": "C",
+      "id": "Q5",
+      "question": "Which of the following is not a step in the SISE technique?",
       "options": {
-        "A": "Only test software after all features are completed",
-        "B": "Deliver code to customers rarely to avoid confusion",
-        "C": "Release partial functionality early and gather user input",
-        "D": "Disallow user involvement until final acceptance testing"
+        "A": "Selection interval",
+        "B": "Evaluate – adjust historical estimate by any bias",
+        "C": "Identify – identifying differences between planned activity and historical tasks",
+        "D": "Integrate – integrate estimates from other team members to create project estimate"
       },
-      "id": "Q5"
+      "correct_answer": "D"
     },
     {
-      "question": "Which of these is not a typical outcome of successful agile development?",
-      "correct_answer": "C",
+      "id": "Q6",
+      "question": "Which of the following is not used in an unadjusted function‑point calculation?",
       "options": {
-        "A": "Decreased time to market",
-        "B": "Increased adaptability to changing requirements",
-        "C": "Complete avoidance of any technical debt",
-        "D": "Enhanced visibility of project progress"
+        "A": "Number of external outputs",
+        "B": "Number of lines of code",
+        "C": "Number of external inputs",
+        "D": "Number of internal logical files"
       },
-      "id": "Q6"
+      "correct_answer": "B"
     },
     {
-      "question": "A. They cannot be adapted to large teams under any circumstances",
-      "correct_answer": "C",
+      "id": "Q7",
+      "question": "Which of the following is not incorporated into a use‑case point calculation?",
       "options": {
-        "B": "Iterations must always last exactly 12 months",
-        "C": "Extensive regulatory or compliance needs can complicate agile adoption",
-        "D": "Agile teams refuse to do any documentation"
+        "A": "The motivation of the team",
+        "B": "The number of internal logical files",
+        "C": "The required performance",
+        "D": "The type of actor"
       },
-      "id": "Q7"
+      "correct_answer": "B"
     },
     {
-      "question": "Which statement best summarizes agile\u2019s approach to documentation?",
-      "correct_answer": "B",
+      "id": "Q8",
+      "question": "Which of the following is a false statement regarding user‑story points?",
       "options": {
-        "A": "Agile forbids any written documentation",
-        "B": "Documentation is produced but kept lean, focusing on what truly helps the team and stakeholders",
-        "C": "Documentation is emphasized more than working software",
-        "D": "Only test documents are created; requirements and design documents are prohibited"
+        "A": "The user‑story points often use the Fibonacci sequence",
+        "B": "The user‑story points can be used by a team to calculate their velocity",
+        "C": "The productivity of different teams can be compared based on their story‑points implemented per hour",
+        "D": "The user‑story points are estimated from analysis of user stories"
       },
-      "id": "Q8"
+      "correct_answer": "C"
     },
     {
-      "question": "Q9.",
+      "id": "Q9",
+      "question": "Which of the following is not a potential advantage of global software development?",
+      "options": {
+        "A": "Cost reduction",
+        "B": "Reduced cycle time",
+        "C": "More consistent and predictable turnover rates of staffing",
+        "D": "Sharing benefits of resources from different cultures and backgrounds"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": "Q10",
+      "question": "Which of the following is a false statement regarding global software development?",
+      "options": {
+        "A": "Distribution of work across global teams enables looser and less rigorous workflows and processes",
+        "B": "A risk of global software development is isolated learning",
+        "C": "Global software development may suffer from a lack of shared values and strategy"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "id": "Q11",
+      "question": "Global software development activities may include testing software.",
+      "options": {
+        "A": "True",
+        "B": "False"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "id": "Q12",
+      "question": "When outsourcing, one must estimate the effort it will take for the vendor to do the work.",
+      "options": {
+        "A": "True",
+        "B": "False"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "id": "Q13",
+      "question": "When outsourcing, a plan must be developed for tracking and oversight of the supplier. Which of the following is a false statement regarding the tracking and oversight plan?",
+      "options": {
+        "A": "The plan must include escalation procedures if problems are not addressed.",
+        "B": "The plan must include the tracking activities to be performed.",
+        "C": "The plan must identify tools and techniques for tracking supplier performance.",
+        "D": "The plan must allocate development tasks to software developers based on their competencies."
+      },
+      "correct_answer": "D"
+    },
+    {
+      "id": "Q14",
+      "question": "Which of the following is not one of the five elements found in implementing a risk‑management plan?",
+      "options": {
+        "A": "Deliverables and milestones",
+        "B": "Verification plan",
+        "C": "Objectives",
+        "D": "Responsibilities"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": "Q15",
+      "question": "Which of the following is a false statement about the utilization of Scrum in global distributed software development?",
+      "options": {
+        "A": "An environment should be created for sharing work items and visualizing progress.",
+        "B": "A Scrum of Scrums should be held with a representative from each team.",
+        "C": "Each Scrum team should follow normal agile practices.",
+        "D": "Each Scrum team should work from their own Product Backlog."
+      },
+      "correct_answer": "D"
+    },
+    {
+      "id": "Q16",
+      "question": "Which of the following is not a component of a statement of work?",
+      "options": {
+        "A": "Identify relevant processes to be followed",
+        "B": "Identify maintenance responsibilities",
+        "C": "Identify all tasks to be performed",
+        "D": "Budgeted cost of the work performed"
+      },
+      "correct_answer": "D"
+    },
+
+    {
+      "id": "Q17",
+      "question": "When analyzing a current process as a part of a process improvement activity, which of the following is not performed?",
+      "options": {
+        "A": "Process redesign to improve performance",
+        "B": "Identify non-value added activities",
+        "C": "Identify value added activities",
+        "D": "Identify sources of variation in the process"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "id": "Q18",
+      "question": "Which of the following is not a post mortem analysis technique?",
+      "options": {
+        "A": "Statistical analysis of data",
+        "B": "Interview key personnel",
+        "C": "Investigations of major problems",
+        "D": "Identifying underperforming developers"
+      },
+      "correct_answer": "D"
+    },
+    {
+      "id": "Q19",
+      "question": "Which of the following is not a process improvement phase?",
+      "options": {
+        "A": "Talk with members following the current process",
+        "B": "Process redesign",
+        "C": "Characterize the target process",
+        "D": "Analyze the current process"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "id": "Q20",
+      "question": "Which of the following is not an anti‑pattern for hybrid‑agile efforts?",
+      "options": {
+        "A": "Failure to actively manage stakeholder involvement",
+        "B": "Telling the team to work harder",
+        "C": "Trying to keep team members together on future projects",
+        "D": "Failure to actively manage risk exposure"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": "Q21",
+      "question": "Which of the following is not an activity in the root‑cause analysis process?",
+      "options": {
+        "A": "Team selects root causes to address",
+        "B": "Each defect is analyzed to determine its probable root cause",
+        "C": "Each defect fix is analyzed to determine its return on investment",
+        "D": "Team selects defects to analyze"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": "Q22",
+      "question": "Which of the following is not one of the IBM suggested defect cause categories?",
+      "options": {
+        "A": "Transcription",
+        "B": "Education",
+        "C": "Oversight",
+        "D": "Management failure"
+      },
+      "correct_answer": "D"
+    },
+    {
+      "id": "Q23",
+      "question": "Which of the following is not one of the phases in the SEI CMM?",
+      "options": {
+        "A": "Defined",
+        "B": "Managed",
+        "C": "Repeatable",
+        "D": "Organized"
+      },
+      "correct_answer": "D"
+    },
+    {
+      "id": "Q24",
+      "question": "Which level of maturity in the PSP is appropriate for a developer who has a person process for estimating development time?",
+      "options": {
+        "A": "PSP 2",
+        "B": "PSP 3",
+        "C": "PSP1",
+        "D": "PSP 0"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": "Q25",
+      "question": "Which of the following is not a true statement regarding 'good enough software'?",
+      "options": {
+        "A": "The benefits sufficiently outweigh the problems.",
+        "B": "The product has only a couple of critical problems.",
+        "C": "Product has sufficient benefits.",
+        "D": "In the present situation and all things considered, further improvements would be more harmful than helpful."
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": "Q26",
+      "question": "According to IEEE Standard 730 which of the following is not a product assurance activity?",
+      "options": {
+        "A": "Evaluate product for conformance to established requirements.",
+        "B": "Measure process",
+        "C": "Evaluate product for acceptability.",
+        "D": "Evaluate product life cycle support for conformance."
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": "Q27",
+      "question": "Functional safety as a quality attribute is best associated with which of the following?",
+      "options": {
+        "A": "Unit level",
+        "B": "Component level",
+        "C": "Use‑case level",
+        "D": "System level"
+      },
+      "correct_answer": "D"
+    },
+    {
+      "id": "Q28",
+      "question": "Which of the following is a false statement regarding the sustainability quality attribute of software?",
+      "options": {
+        "A": "Sustainability of the software is measured the amount of resources not used.",
+        "B": "Energy usage impacts sustainability of software.",
+        "C": "Sustainability analysis for software requires a Life Cycle Assessment.",
+        "D": "Second order impacts of software are tied to software maintainability."
+      },
+      "correct_answer": "D"
+    },
+    {
+      "id": "Q29",
+      "question": "Which of the following is not represented in a House of Quality diagram?",
+      "options": {
+        "A": "Customer specifications and importance",
+        "B": "Engineering approaches used to meet specifications",
+        "C": "Relationship of engineering approaches to each other",
+        "D": "Results of quality measures obtained during testing"
+      },
+      "correct_answer": "D"
+    },
+    {
+      "id": "Q30",
+      "question": "Which of the following is a false statement regarding 'utility trees' for quality attributes?",
+      "options": {
+        "A": "Utility trees are used to identify and refine the most important quality attribute goals.",
+        "B": "The quality scenarios are the leaves of the utility tree.",
+        "C": "Quality attribute scenarios in a utility tree are only prioritized by the customer.",
+        "D": "The most important quality goals are identified at the highest level in the utility tree."
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": "Q31",
+      "question": "Which of the following activities is not a part of the metrics‑implementation cycle?",
+      "options": {
+        "A": "Make decisions based on metrics",
+        "B": "Validating requirements",
+        "C": "Collect data",
+        "D": "Derive metrics"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": "Q32",
+      "question": "In the '3C Approach for Agile Quality', which of the following is not measured as a part of continuous measurement?",
+      "options": {
+        "A": "Code complexity",
+        "B": "Code size",
+        "C": "Project velocity",
+        "D": "Test coverage"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": "Q33",
+      "question": "Which of the following is not a part of the Goal Question Metric (GQM) paradigm?",
+      "options": {
+        "A": "Define the goals of the measurement process",
+        "B": "Delegate tasks to team members to reach the goals defined",
+        "C": "Derive questions that must be answered to meet the goals",
+        "D": "Develop metrics to answer the questions"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "question": "What are major causes of inaccurate estimates?",
       "correct_answer": "A",
       "options": {
-        "A": "\u201cWhat did I do yesterday? What will I do today? Do I see any impediments?\u201d",
-        "B": "\u201cWhen is the deadline? Who will be blamed for delays? How do we reduce salaries?\u201d",
-        "C": "\u201cWhich tools can we buy? What are we canceling? When is the next holiday?\u201d",
-        "D": "\u201cWhat features are done? How many story points are left? What is the team velocity?\u201d"
-      },
-      "id": "Q9"
-    },
-    {
-      "question": "Why are daily stand-up meetings normally time-boxed to around 15 minutes?",
-      "correct_answer": "A",
-      "options": {
-        "A": "To encourage conciseness and keep the team focused on immediate blockers and progress",
-        "B": "To prevent any issues from being discussed",
-        "C": "To allow only management to speak",
-        "D": "To avoid updating the backlog too frequently"
-      },
-      "id": "Q10"
-    },
-    {
-      "question": "Which of the following is a common benefit associated with daily stand-ups?",
-      "correct_answer": "B",
-      "options": {
-        "A": "They ensure that developers never talk to each other outside this meeting",
-        "B": "They promote transparency and quick identification of obstacles",
-        "C": "They eliminate the need for code reviews",
-        "D": "They replace all sprint planning sessions"
-      },
-      "id": "Q11"
-    },
-    {
-      "question": "In daily stand-ups, which problem do teams often report if the meetings are poorly run?",
-      "correct_answer": "B",
-      "options": {
-        "A": "The team spontaneously solves issues together without any delays",
-        "B": "The meetings become lengthy status reports instead of quick updates",
-        "C": "The team addresses only the successes, never the blockers",
-        "D": "The meeting is canceled if there is no manager present"
-      },
-      "id": "Q12"
-    },
-    {
-      "question": "Which of the following is recommended to increase the effectiveness of daily stand-up meetings?",
-      "correct_answer": "C",
-      "options": {
-        "A": "Holding them only once every two weeks",
-        "B": "Allowing detailed problem-solving with the entire group for as long as it takes",
-        "C": "Keeping discussions focused; move in-depth debates to after the stand-up",
-        "D": "Requiring everyone to remain silent unless a manager directly asks a question"
-      },
-      "id": "Q13"
-    },
-    {
-      "question": "Q14.",
-      "correct_answer": "C",
-      "options": {
-        "A": "Seeking help only from employees with formal degrees",
-        "B": "Outsourcing tasks to a single highly paid consultant",
-        "C": "Posting an open call for contributions or solutions to a broad, often online, community",
-        "D": "Adopting an agile method that requires 24/7 coding"
-      },
-      "id": "Q14"
-    },
-    {
-      "question": "According to the crowdsourcing slides, which of these is not typically cited as a type of crowdsourcing task?",
-      "correct_answer": "D",
-      "options": {
-        "A": "Rating",
-        "B": "Processing",
-        "C": "Creation",
-        "D": "Regression"
-      },
-      "id": "Q15"
-    },
-    {
-      "question": "Which of the following is a common motivation for using crowdsourcing in software projects?",
-      "correct_answer": "B",
-      "options": {
-        "A": "Eliminate all internal QA teams",
-        "B": "Quickly obtain diverse solutions or feedback from a large, global community",
-        "C": "Restrict development to only one specialized engineer",
-        "D": "Prevent users from reporting any issues"
-      },
-      "id": "Q16"
-    },
-    {
-      "question": "In the crowdsourcing taxonomy, emergent value generally refers to:",
-      "correct_answer": "A",
-      "options": {
-        "A": "Value arising from aggregating many individual contributions",
-        "B": "Value that is impossible to measure",
-        "C": "Value that emerges only after the project ends",
-        "D": "Value deriving solely from the largest single contributor"
-      },
-      "id": "Q17"
-    },
-    {
-      "question": "Which is not an example of crowdsourcing in software engineering?",
-      "correct_answer": "B",
-      "options": {
-        "A": "Having a broad user community report and upvote bugs",
-        "B": "Hiring a single external consultant to write all your code in secrecy",
-        "C": "Hosting a competition to improve a recommendation algorithm",
-        "D": "Using a platform like Topcoder to develop new software components"
-      },
-      "id": "Q18"
-    },
-    {
-      "question": "Which scenario best fits the problem-solving type of crowdsourcing?",
-      "correct_answer": "C",
-      "options": {
-        "A": "Collecting user star-ratings for a mobile app",
-        "B": "Reporting identical, small tasks repeated thousands of times",
-        "C": "Generating multiple unique solutions, from which one or more may be selected",
-        "D": "Summing identical data entries from the crowd for aggregated value"
-      },
-      "id": "Q19"
-    },
-    {
-      "question": "Which potential drawback might occur when relying heavily on crowdsourcing?",
-      "correct_answer": "B",
-      "options": {
-        "A": "You always get guaranteed top-quality work",
-        "B": "Managing and reviewing a large volume of submissions can become time-consuming",
-        "C": "The cost is always higher than traditional outsourcing",
-        "D": "Contributors rarely have any specialized expertise"
-      },
-      "id": "Q20"
-    },
-    {
-      "question": "Q21.",
-      "correct_answer": "C",
-      "options": {
-        "A": "Ensure only a single source of feedback is used",
-        "B": "Filter out user involvement entirely",
-        "C": "Tap into the \u201cwisdom of the crowd\u201d for problem-solving and diverse insights",
-        "D": "Restrict solutions to a small group of domain experts"
-      },
-      "id": "Q21"
-    },
-    {
-      "question": "Which of these is a true statement about large-scale crowdsourcing platforms, like Topcoder?",
-      "correct_answer": "B",
-      "options": {
-        "A": "They primarily focus on social media marketing",
-        "B": "They often host coding competitions, bug hunts, and design challenges",
-        "C": "They are strictly for academic research, not industry use",
-        "D": "They do not offer any rewards or incentive structures"
-      },
-      "id": "Q22"
-    },
-    {
-      "question": "What was a well-known crowdsourced contest in the software/algorithm domain that offered a $1M prize?",
-      "correct_answer": "C",
-      "options": {
-        "A": "Topcoder Marathon",
-        "B": "Google Summer of Code",
-        "C": "Netflix Prize for improving movie recommendations",
-        "D": "Amazon Code Guru Challenge"
-      },
-      "id": "Q23"
-    },
-    {
-      "question": "Which of the following best describes the \u201cemergent vs. nonemergent\u201d dimension in crowdsourcing tasks?",
-      "correct_answer": "B",
-      "options": {
-        "A": "\u201cEmergent\u201d tasks are always completed by professionals, \u201cnonemergent\u201d tasks by novices",
-        "B": "Emergent value arises from combining many contributions; nonemergent value is in each individual contribution",
-        "C": "Emergent tasks are more expensive; nonemergent tasks are always free",
-        "D": "Emergent tasks require more advanced automation than nonemergent tasks"
-      },
-      "id": "Q24"
-    },
-    {
-      "question": "Which statement is generally not associated with benefits of crowdsourcing in software engineering?",
-      "correct_answer": "C",
-      "options": {
-        "A": "Crowdsourcing can reduce time to market by parallelizing tasks",
-        "B": "Crowdsourcing helps incorporate diverse skill sets",
-        "C": "Crowdsourcing always requires minimal coordination effort",
-        "D": "Crowdsourcing can boost creativity by attracting varied ideas"
-      },
-      "id": "Q25"
-    },
-    {
-      "question": "A. Infinite budget availability",
-      "correct_answer": "B",
-      "options": {
-        "B": "Overdependence on external contributors for critical components",
-        "C": "Automatic guarantee that all tasks will be completed on time",
-        "D": "No possibility of IP or confidentiality breaches"
-      },
-      "id": "Q26"
-    },
-    {
-      "question": "Crowdsourcing can be used at various stages of the software lifecycle. Which example best shows crowdsourcing used for maintenance?",
-      "correct_answer": "B",
-      "options": {
-        "A": "An entire project is developed from scratch by an in-house team",
-        "B": "A user community is asked to help identify bugs and improvement ideas",
-        "C": "A single developer designs the final user interface offline",
-        "D": "Management decides the next release schedule without outside input"
-      },
-      "id": "Q27"
-    },
-    {
-      "question": "From the \u201cCrowdsourcing for Software Engineering\u201d perspective, which of these is not a likely motivation for crowd participants?",
-      "correct_answer": "D",
-      "options": {
-        "A": "Monetary or prize-based rewards",
-        "B": "Gaining reputation or recognition in the community",
-        "C": "Learning and skill-building opportunities",
-        "D": "Permanent, guaranteed full-time employment with the hosting company"
-      },
-      "id": "Q28"
-    },
-    {
-      "question": "In large-scale crowdsourcing contests (like those on Topcoder), a hybrid approach to solution generation sometimes emerges when:",
-      "correct_answer": "A",
-      "options": {
-        "A": "Participants borrow or build upon intermediate solutions from other submissions",
-        "B": "The platform only allows one submission from each participant",
-        "C": "Contest rules forbid collaboration between participants",
-        "D": "Only the highest-voted submission is kept, and others are discarded without reference"
-      },
-      "id": "Q29"
-    },
-    {
-      "question": "Which statement about crowdsourcing\u2019s impact on traditional outsourcing is most accurate?",
-      "correct_answer": "C",
-      "options": {
-        "A": "Crowdsourcing always replaces outsourcing in all forms",
-        "B": "Crowdsourcing is identical to hiring a consulting firm",
-        "C": "Crowdsourcing can serve as an alternative or supplement, often tapping a broader set of contributors",
-        "D": "Crowdsourcing only works for design tasks and never for coding or testing"
-      },
-      "id": "Q30"
-    },
-    {
-      "question": "In many Scrum implementations, the daily stand-up meeting is time-boxed to approximately:",
-      "correct_answer": "C",
-      "options": {
-        "A": "5 minutes",
-        "B": "10 minutes",
-        "C": "15 minutes",
-        "D": "60 minutes"
-      },
-      "id": "Q31"
-    },
-    {
-      "question": "Which three questions are traditionally asked in a daily stand-up according to classic Scrum guidelines?",
-      "correct_answer": "B",
-      "options": {
-        "A": "\u201cWhat tasks are done? When is the next break? Is testing completed?\u201d",
-        "B": "\u201cWhat did I do yesterday? What will I do today? Do I see any impediments?\u201d",
-        "C": "\u201cWho is at fault? How many story points remain? When is the hard deadline?\u201d",
-        "D": "\u201cWhen can I leave? Who is leading the meeting? Are we on budget?\u201d"
-      },
-      "id": "Q32"
-    },
-    {
-      "question": "Based on research in \u201cDaily Stand-Up Meetings\u201d articles, which aspect do teams most value beyond simply stating updates?",
-      "correct_answer": "B",
-      "options": {
-        "A": "Collecting budget approvals",
-        "B": "Quick, problem-focused communication and solution discussions",
-        "C": "Reporting past accomplishments in as much detail as possible",
-        "D": "Providing status primarily to a single manager"
-      },
-      "id": "Q33"
-    },
-    {
-      "question": "A. Allows everyone to hear all the project details",
-      "correct_answer": "C",
-      "options": {
-        "B": "Guarantees faster problem resolution",
-        "C": "Shifts the meeting into a lengthy status report rather than a discussion",
-        "D": "Forces all team members to arrive exactly on time"
+        "A": "Misunderstanding requirements, lack of historical data, overlooking tasks, pressure to reduce estimates",
+        "B": "Estimating complexity, determining quality level, time pressure, imprecise problem definition",
+        "C": "Misunderstood requirements, lack of guidelines, use of technology, desired quality level",
+        "D": "Lack of historical data, pressure to reduce estimates, precise problem definition, accurate tasks"
       },
       "id": "Q34"
     },
     {
-      "question": "Which is a recommended approach to make daily stand-ups more effective for distributed or remote teams?",
-      "correct_answer": "C",
+      "question": "What factor is involved in estimating both house cleaning and software development?",
+      "correct_answer": "A",
       "options": {
-        "A": "Eliminate all video or shared boards to reduce complexity",
-        "B": "Schedule multiple stand-ups at random times throughout the day",
-        "C": "Use video-conferencing so team members can see expressions and gestures",
-        "D": "Have only the Scrum master dial in, while the rest of the team uses text chat"
+        "A": "Size",
+        "B": "Physical activity",
+        "C": "Level of cleanliness",
+        "D": "Number of staff"
       },
       "id": "Q35"
     },
     {
-      "question": "What is a frequent cause of dissatisfaction among senior team members during daily stand-ups?",
-      "correct_answer": "A",
+      "question": "What is a disadvantage regarding top‑down/analogy estimation?",
+      "correct_answer": "C",
       "options": {
-        "A": "They typically learn nothing new and see the meeting as redundant",
-        "B": "The stand-up usually transitions into group problem-solving they value",
-        "C": "Stand-ups are mandated to last more than an hour for senior staff",
-        "D": "Senior staff rarely have any external responsibilities or other meetings"
+        "A": "The estimator must take differences among projects into account.",
+        "B": "It can be used with the Delphi technique.",
+        "C": "The technique does not work well for new types of projects.",
+        "D": "An expert develops the estimate."
       },
       "id": "Q36"
     },
     {
-      "question": "One recommended tweak to the standard daily stand-up, cited by some research, is to:",
+      "question": "Which concept is similar to bottom‑up decomposition?",
       "correct_answer": "B",
       "options": {
-        "A": "Focus primarily on status reporting so managers can take notes",
-        "B": "Eliminate \u201cWhat did I do yesterday?\u201d and focus on upcoming tasks and blockers",
-        "C": "Schedule the meeting extremely early, guaranteeing minimal attendance",
-        "D": "Expand the meeting to 45 minutes for deeper architecture discussions"
+        "A": "Delphi technique",
+        "B": "Work breakdown structure",
+        "C": "Top‑down/analogy",
+        "D": "Scrum"
       },
       "id": "Q37"
     },
     {
-      "question": "Why do some teams prefer to hold daily stand-ups right before lunch?",
-      "correct_answer": "C",
+      "question": "Which key statement best describes how to calculate a 70% confidence interval from a set of individual estimates of project components?",
+      "correct_answer": "D",
       "options": {
-        "A": "To prolong the meeting well over the normal timebox",
-        "B": "Because everyone is too tired to talk in the morning",
-        "C": "It reduces the risk of splitting the workday into too many short time segments",
-        "D": "To prevent participants from sharing any impediments"
+        "A": "(maximum estimate value − minimum estimate value) / 6",
+        "B": "Expected value of the total estimate plus and minus the sum of the variances of the individual estimates",
+        "C": "Square root of the sum of the individual estimate variances",
+        "D": "Expected value of the total estimate plus and minus the standard deviation of the sum of the variances of the individual estimates"
       },
       "id": "Q38"
     },
     {
-      "question": "Q9.",
+      "question": "Review the Rayleigh‑Norden equation: S = Ck * K^{1/3} * t_d^{4/3}. What is the correct meaning for each part of the Rayleigh‑Norden equation?",
       "correct_answer": "C",
       "options": {
-        "A": "Agile eliminates all overhead so no manager is needed",
-        "B": "Agile cannot be used in large, complex projects",
-        "C": "Agile fosters self-organized teams but still benefits from roles like Scrum master",
-        "D": "Agile is purely for small, co-located teams"
+        "A": "Source code, Effort, Technology constant, Development time",
+        "B": "Denial of service, Estimation time, Technology changing value, Source code",
+        "C": "Source lines, Technology constant, Effort, Development time",
+        "D": "Source lines, Estimation time, Technology constant, Denial of service"
       },
       "id": "Q39"
     },
     {
-      "question": "Which statement best reflects the myth that \u201cAgile methods have no documentation\u201d?",
-      "correct_answer": "B",
+      "question": "Which statement is indicative of checking that the estimate is accurate?",
+      "correct_answer": "D",
       "options": {
-        "A": "Agile teams often produce no code until final acceptance",
-        "B": "Agile teams produce essential documentation incrementally rather than large up-front documents",
-        "C": "Agile forbids writing requirements or user manuals",
-        "D": "Agile mandates all documentation be completed before any coding starts"
+        "A": "Check that estimates of similar parts of the system are not the same.",
+        "B": "Check that new team members agree that the estimate is accurate.",
+        "C": "Check that the estimates of parts of your system with dissimilar parts of other completed systems are the same.",
+        "D": "Check that the proportion of resources planned for each phase of the project matches the proportion of resources expended on similar completed projects."
       },
       "id": "Q40"
     },
     {
-      "question": "Why is the statement \u201cAgile only works for small, co-located teams\u201d generally considered a myth?",
-      "correct_answer": "B",
+      "question": "What is the difference between an estimate and a commitment?",
+      "correct_answer": "A",
       "options": {
-        "A": "Agile frameworks explicitly forbid remote collaboration",
-        "B": "Real-world cases show distributed teams successfully using agile with modern communication tools",
-        "C": "Agile only scales to 10 people, but no more",
-        "D": "Agile requires a top-down management approach for remote offices"
+        "A": "An estimate is an uncertainty range while a commitment is the estimate plus a calculated reserve.",
+        "B": "An estimate is a commitment that describes the uncertainty range while a commitment is an estimate that shows a calculated reserve.",
+        "C": "An estimate is the calculated reserve while a commitment is an uncertainty range.",
+        "D": "An estimate and a commitment are the same: they describe the poorly defined requirements."
       },
       "id": "Q41"
     },
     {
-      "question": "Which of the following is a common myth about agile methods?",
-      "correct_answer": "C",
+      "question": "What is the major difference between estimating and budgeting?",
+      "correct_answer": "A",
       "options": {
-        "A": "Agile has discipline but in a different, iterative manner",
-        "B": "Agile includes frequent planning and re-planning",
-        "C": "Agile has no need for formal or measurable practices",
-        "D": "Agile can produce working increments early"
+        "A": "Estimating does not include risk",
+        "B": "Contingency",
+        "C": "Budgeting does not include risk",
+        "D": "Commitment"
       },
       "id": "Q42"
     },
     {
-      "question": "According to the \u201cDebunking Agile Myths\u201d reading, which factor most often undermines agile project success?",
+      "question": "According to the Core Estimating Concepts reading, which step deals with identifying risk areas?",
       "correct_answer": "A",
       "options": {
-        "A": "Company culture at odds with agile values and lack of management support",
-        "B": "Having too many story points in a single sprint",
-        "C": "Using continuous integration too frequently",
-        "D": "Overemphasizing backlog prioritization"
+        "A": "Establishing a program baseline",
+        "B": "Validate and verify estimate",
+        "C": "Establish needs with customer",
+        "D": "Develop baseline cost estimate"
       },
       "id": "Q43"
     },
     {
-      "question": "Which myth claims \u201cAgile does not scale\u201d, and why is this considered false?",
-      "correct_answer": "B",
+      "question": "According to the Estimation Tools and Techniques reading, what are the different types of estimation techniques?",
+      "correct_answer": "C",
       "options": {
-        "A": "Agile can only be used by single-person startups",
-        "B": "It\u2019s false because multiple agile teams, each focusing on smaller increments, can coordinate to handle large projects",
-        "C": "It\u2019s partly correct since agile has never been used on multi-year programs",
-        "D": "Agile has no communication protocols for more than three teams"
+        "A": "Delphi method, Scrum, decomposition, statistical methods",
+        "B": "Statistical methods, bottom‑up approach, top‑down analogy, expert judgement",
+        "C": "Expert judgement, analogy, decomposition, and statistical methods",
+        "D": "LOC, decomposition, analogy, integration"
       },
       "id": "Q44"
     },
     {
-      "question": "Which is a real principle of agile that rebuts the myth \u201cAgile has no requirements\u201d?",
-      "correct_answer": "C",
+      "question": "What are the steps in function point counting?",
+      "correct_answer": "D",
       "options": {
-        "A": "Agile invites external consultants to handle all requirements",
-        "B": "Agile invests heavily in architecture diagrams but never in user stories",
-        "C": "Agile captures requirements in user stories or backlog items, refining them iteratively",
-        "D": "Agile relies purely on guesswork from the development team"
+        "A": "Calculate complexity of each type; Divide the number of logical components of each type; Calculate adjusted FP; Determine VAF; Sum values to produce unadjusted final FP count.",
+        "B": "Calculate complexity of each type; Count the number of logical components of each type; Calculate final adjusted FP; Determine VAF; Sum values to produce unadjusted FP count.",
+        "C": "Count the number of logical components of each type; Calculate complexity of each type; Subtract values to produce unadjusted FP count; Determine FAV; Calculate final adjusted FP.",
+        "D": "Count the number of logical components of each type; Calculate complexity of each type; Sum values to produce unadjusted FP count; Determine VAF; Calculate final adjusted FP."
       },
       "id": "Q45"
     },
     {
-      "question": "Which statement is true according to \u201cDebunking Agile Myths\u201d about agile project predictability?",
-      "correct_answer": "B",
+      "question": "While estimating the cost of software, which attribute belongs to the Lines of Code (LOC) metric?",
+      "correct_answer": "D",
       "options": {
-        "A": "Agile development is always unpredictable by definition",
-        "B": "Agile repeatedly re-plans in short cycles, using velocity and iterative feedback to enhance predictability",
-        "C": "Agile never tracks progress with metrics like burn-down or velocity",
-        "D": "Agile only relies on guesswork, making final outcomes entirely uncertain"
+        "A": "It is used language independent",
+        "B": "It is user‑oriented",
+        "C": "It is used to portray the project time",
+        "D": "It is used for calculating the size of the computer program"
       },
       "id": "Q46"
     },
     {
-      "question": "Q17.",
+      "question": "Which factor is omitted in the use case point calculation?",
       "correct_answer": "C",
       "options": {
-        "A": "Bugs found later in production are always trivial to fix",
-        "B": "There is no benefit in involving stakeholders early",
-        "C": "Finding defects early prevents costly rework and promotes clarity in the final product",
-        "D": "Requirements are optional in a continuous delivery environment"
+        "A": "The type of actor",
+        "B": "The required performance",
+        "C": "The number of internal logical files",
+        "D": "The motivation of the team"
       },
       "id": "Q47"
     },
     {
-      "question": "According to the article, which statement about static code analysis is most accurate?",
+      "question": "What is necessary to compute the Unadjusted Use Case Points?",
       "correct_answer": "B",
       "options": {
-        "A": "It only checks coding style but cannot detect security vulnerabilities",
-        "B": "It helps identify code smells, potential bugs, and security issues before runtime",
-        "C": "It always eliminates the need for peer code reviews",
-        "D": "It is less beneficial than waiting until full system integration to find defects"
+        "A": "TCF + TTF",
+        "B": "UUCW + UAW",
+        "C": "TCF * ECF",
+        "D": "ECF + UCP"
       },
       "id": "Q48"
     },
     {
-      "question": "Why does Wayfair emphasize \u201cunit testing\u201d as a core practice when aiming for frequent releases?",
-      "correct_answer": "B",
+      "question": "Based on the Function Points, Use Case Points, Story Points reading, which measure of size is the easiest to calculate?",
+      "correct_answer": "D",
       "options": {
-        "A": "Unit tests are unnecessary if you have strong integration tests",
-        "B": "Unit tests quickly validate small pieces of functionality and act as living documentation",
-        "C": "They slow down deployment pipelines significantly",
-        "D": "Only manual testing can guarantee zero defects"
+        "A": "Lines of code",
+        "B": "Use case points",
+        "C": "Function points",
+        "D": "Story points"
       },
       "id": "Q49"
     },
     {
-      "question": "One principle is to \u201cAutomate only what matters most.\u201d Which of the following reflects that principle?",
-      "correct_answer": "B",
+      "question": "Which statement reflects a step involved in the SISE technique?",
+      "correct_answer": "C",
       "options": {
-        "A": "Automating trivial or rarely used features first to ensure 100% coverage",
-        "B": "Focusing test automation on high-impact, critical paths rather than everything under the sun",
-        "C": "Completely avoiding test automation unless mandated by a manager",
-        "D": "Writing exclusively GUI-based tests for all functionality"
+        "A": "Integrate differences between planned activity and historical tasks",
+        "B": "Determine past data based on historical data",
+        "C": "Adjust historical estimates by any bias",
+        "D": "Sort estimates from other team members to create project estimate"
       },
       "id": "Q50"
     },
     {
-      "question": "What is a key reason that Wayfair invests in visualizing test results and coverage on large screens?",
-      "correct_answer": "C",
+      "question": "What is a significant concern regarding the reuse of open source software?",
+      "correct_answer": "B",
       "options": {
-        "A": "To hide issues from developers",
-        "B": "To ensure only the quality engineers see real-time data",
-        "C": "To keep the entire team aware of product health and engaged in continuous improvement",
-        "D": "To replace all documentation with colorful charts"
+        "A": "Testing",
+        "B": "Licensing",
+        "C": "Maintenance",
+        "D": "Acquisition cost"
       },
       "id": "Q51"
     },
     {
-      "question": "How does continuous delivery help Wayfair push out hundreds of releases per day?",
-      "correct_answer": "B",
+      "question": "If $ = f (effort), then would size estimates include deleted code?",
+      "correct_answer": "C",
       "options": {
-        "A": "It forces teams to finalize all features before any release",
-        "B": "It automates build, test, and deployment pipelines, minimizing manual handoffs",
-        "C": "It requires no planning or coordination across teams",
-        "D": "It only applies to new features and never to bug fixes"
+        "A": "No, because deleting code is easy and does not involve any effort.",
+        "B": "Yes, because deleting code involves cost, where one line of deleted code costs $1.",
+        "C": "Yes, because there is effort involved in modifying code, which also includes deleting code.",
+        "D": "No, because when estimating size we do not need to consider deleting anything because of the planned out requirements."
       },
       "id": "Q52"
     },
     {
-      "question": "Which of the following is not one of the recommended \u201cbig feature\u201d rollout strategies mentioned in the Wayfair case study?",
-      "correct_answer": "B",
+      "question": "What is an additional factor that can be taken into account for the house cleaning example?",
+      "correct_answer": "C",
       "options": {
-        "A": "Use \u201cfeature toggles\u201d so new functionality can be turned on/off at will",
-        "B": "Give all customers globally immediate, mandatory access to new features",
-        "C": "Incrementally release features to a subset of customers or geographies for feedback",
-        "D": "Conduct A/B testing to compare different versions in production"
+        "A": "Difficulty",
+        "B": "Team experience",
+        "C": "Is the customer home",
+        "D": "Cleaning utensils"
       },
       "id": "Q53"
     },
     {
-      "question": "Why do teams often rely on isolated environments for running tests in the Wayfair approach?",
-      "correct_answer": "B",
+      "question": "Which step of the estimation process deals with earned values?",
+      "correct_answer": "A",
       "options": {
-        "A": "To reduce reliability by skipping test coverage",
-        "B": "To ensure stable, reproducible test results free from outside interference",
-        "C": "To guarantee deployment is blocked until late-stage manual QA",
-        "D": "To prevent any form of collaboration"
+        "A": "Identify estimable tasks from requirements.",
+        "B": "Talk to the customer about final estimation.",
+        "C": "Determine estimation responsibilities.",
+        "D": "Select appropriate size measures."
       },
       "id": "Q54"
     },
     {
-      "question": "If a large-impact defect is discovered in production right after release, how does Wayfair typically respond?",
-      "correct_answer": "C",
+      "question": "What is an evident problem source for requirements?",
+      "correct_answer": "B",
       "options": {
-        "A": "Keep the defect in production for a few weeks to collect user data",
-        "B": "Completely retire that product permanently",
-        "C": "Quickly roll back or turn off the feature using a toggle mechanism",
-        "D": "Wait until the next quarter\u2019s release cycle to patch it"
+        "A": "Users and analysts speak the same \"language\".",
+        "B": "Customers have incomplete understanding of their needs.",
+        "C": "Requirements are very stable.",
+        "D": "Customers have too much understanding of computer capabilities."
       },
       "id": "Q55"
     },
     {
-      "question": "What is a core philosophy behind having only 6 quality engineers for 200+ developers at Wayfair?",
-      "correct_answer": "B",
+      "question": "Suppose you are in charge of a new technology implementation project. Your estimations must be as precise as possible, per management's requirement. Which estimation approach will offer the most accurate estimate?",
+      "correct_answer": "A",
       "options": {
-        "A": "QEs do all manual testing, while developers code",
-        "B": "The entire team (developers, PMs) shares responsibility for quality, not just QEs",
-        "C": "No formal testing is needed, so 6 QEs suffice",
-        "D": "Quality is guaranteed by static code analysis alone"
+        "A": "Bottom‑up estimate",
+        "B": "Parametric estimate",
+        "C": "Top‑down estimate",
+        "D": "Analogous estimate"
       },
       "id": "Q56"
     },
     {
-      "question": "Which of the following best describes \u201ccross-checking\u201d features among developers in the Wayfair model?",
-      "correct_answer": "C",
+      "question": "What is the \"80/20 rule\" as it applies to size estimation?",
+      "correct_answer": "A",
       "options": {
-        "A": "A specialized QA team re-tests every piece of code",
-        "B": "Each developer merges code without any peer interaction",
-        "C": "Developers test each other\u2019s features for fresh eyes and unbiased feedback",
-        "D": "Testing is outsourced after the code is live in production"
+        "A": "Spend more time estimating more accurately the size of the parts that contribute the most to the estimate.",
+        "B": "Spend less time estimating less accurately the size of the parts that contribute the most to the estimate.",
+        "C": "Spend more time estimating less accurately the size of the parts that contribute the least to the estimate.",
+        "D": "Spend less time estimating less accurately the size of the parts that contribute the least to the estimate."
       },
       "id": "Q57"
     },
     {
-      "question": "Wayfair\u2019s approach to frequent releases accepts the risk of occasional defects reaching production because:",
-      "correct_answer": "B",
+      "question": "To develop a total estimate with statistical confidence, which values are needed for each individual estimate?",
+      "correct_answer": "A",
       "options": {
-        "A": "Teams have no metrics to track defects",
-        "B": "They can quickly fix or roll back changes, prioritizing rapid value delivery",
-        "C": "Downtime is never costly for e-commerce",
-        "D": "All testing is manual"
+        "A": "Optimistic, most likely, pessimistic",
+        "B": "Pessimistic, unbiased, optimistic",
+        "C": "Optimistic, unlikely, pessimistic",
+        "D": "Unbiased, optimistic, most likely, pessimistic"
       },
       "id": "Q58"
     },
     {
-      "question": "How does Wayfair handle performance issues or error spikes after a new deployment?",
-      "correct_answer": "C",
+      "question": "What is the Rayleigh‑Nordan Equation?",
+      "correct_answer": "D",
       "options": {
-        "A": "They rely on monthly manual audits",
-        "B": "They ignore production metrics until a major outage occurs",
-        "C": "They constantly monitor key performance and error metrics, rolling back quickly if needed",
-        "D": "They shut down the entire site for 24 hours to investigate"
+        "A": "S = C_k * K^{4/3} * t_d^{1/3}",
+        "B": "S = (C_k * K^{1/3}) / t_d^{4/3}",
+        "C": "S = C_k / (K^{1/3} * t_d^{4/3})",
+        "D": "S = C_k * K^{1/3} * t_d^{4/3}"
       },
       "id": "Q59"
     },
     {
-      "question": "Which statement best captures the overall lesson from \u201cHow to Make 100 Releases Per Day with Only 6 QEs\u201d?",
+      "question": "What can you check in order to identify whether an estimate is good?",
       "correct_answer": "B",
       "options": {
-        "A": "Quality is mostly a post-release concern handled by specialized testers",
-        "B": "Preventing bugs up front and empowering all team members to contribute to quality enables rapid, reliable releases",
-        "C": "Frequent releases require ignoring all testing overhead",
-        "D": "Large teams are necessary to accomplish continuous delivery"
+        "A": "Historical data, similar parts of the system, and uncompleted systems",
+        "B": "Historical data, similar parts of the system, and already completed systems",
+        "C": "Peer reviews, dissimilar parts of the system, and already completed systems",
+        "D": "Historical data, peer reviews, and similar parts of the system"
       },
       "id": "Q60"
     },
     {
-      "question": "Q1.",
-      "correct_answer": "B",
+      "question": "According to the Core Estimating Concepts reading, what is one way to validate an estimate?",
+      "correct_answer": "A",
       "options": {
-        "A": "Any method that relies on pair programming alone",
-        "B": "A combination of agile and traditional (plan-driven) practices tailored to a specific context",
-        "C": "Using only waterfall phases for initial planning and ignoring agile techniques thereafter",
-        "D": "A purely iterative approach with no elements of documentation"
+        "A": "Compare bottom‑up with parametric estimate",
+        "B": "Use the same High Level Objects (HLOs)",
+        "C": "Compare top‑down/analogy with an exact estimate",
+        "D": "Use the different Low Level Objects (LLOs)"
       },
       "id": "Q61"
     },
     {
-      "question": "According to the European survey on hybrid approaches, which key factor often leads organizations to adopt hybrid models?",
+      "question": "What is key to good estimation?",
       "correct_answer": "C",
       "options": {
-        "A": "A universal desire to eliminate all documentation",
-        "B": "Company-wide policies that mandate using only a single approach",
-        "C": "External norms, regulations, or standards that must be balanced with agile methods",
-        "D": "Teams never reevaluate their processes once set"
+        "A": "Top‑down analogy and bottom‑up approach",
+        "B": "Computers and Software",
+        "C": "People and Data",
+        "D": "Expert judgement and analogy"
       },
       "id": "Q62"
     },
     {
-      "question": "In many cases, hybrid approaches emerge rather than being deliberately planned. Which statement best explains why?",
+      "question": "According to the Managing the Size of Your Projects reading, what are function points?",
       "correct_answer": "B",
       "options": {
-        "A": "Teams typically dislike any form of process improvement",
-        "B": "The approach evolves from practical experiences, day-to-day constraints, and gradual adaptations",
-        "C": "External consultants usually enforce a strict top-down plan",
-        "D": "Organizations ban iterative or continuous improvement cycles"
+        "A": "Based on the managers perspective and a measure of the size of a software project’s work input",
+        "B": "Based on the user perspective and a measure of the size of a software program",
+        "C": "Based on the developer’s perspective and a measure of the size of a software project’s work input",
+        "D": "Based on the user perspective and a measure of the size of a hardware projects work output"
       },
       "id": "Q63"
     },
     {
-      "question": "Which statement about company size and industry sector in hybrid software development is most accurate, based on the study?",
-      "correct_answer": "C",
+      "question": "According to the function points as construction analogy, which metric‑units relation is accurate in terms of IT units of measure?",
+      "correct_answer": "B",
       "options": {
-        "A": "Only small startups benefit from mixing agile and traditional methods",
-        "B": "Hybrid approaches are successful only in large, regulated environments",
-        "C": "Hybrid processes appear consistently across different company sizes and sectors",
-        "D": "Government agencies are legally barred from implementing any agile components"
+        "A": "Size of change orders → Cost per FP",
+        "B": "Estimated project size → FP",
+        "C": "Unit cost → Hours or man‑months",
+        "D": "Estimated work effort → FP, cost, or hours (impact)"
       },
       "id": "Q64"
     },
     {
-      "question": "One observed motivation for hybrid development is project or product management and commitment. Which example aligns with that driver?",
-      "correct_answer": "A",
+      "question": "Which of the following is *not* a factor to consider as a part of a Good‑Enough Quality Paradigm?",
+      "correct_answer": "D",
       "options": {
-        "A": "Merging a \u201cwaterfall-like\u201d structure for top-level governance with agile sprints for fast iteration",
-        "B": "Eliminating all forms of management oversight in favor of self-organized teams",
-        "C": "Hiring only part-time developers to reduce overhead",
-        "D": "Requiring each project to adopt only one \u201cpure\u201d method from start to finish"
+        "A": "Assessing the impact on customers of potential problems",
+        "B": "Assessing the current benefits of the product",
+        "C": "Assessing the cost of improving the product",
+        "D": "Assessing the duration of development"
       },
       "id": "Q65"
     },
     {
-      "question": "Q6.",
-      "correct_answer": "B",
+      "question": "Which of the following is *not* represented in a House‑of‑Quality diagram?",
+      "correct_answer": "D",
       "options": {
-        "A": "Building the entire product in one massive release, then performing final tests",
-        "B": "Delivering the system in a series of partial \u201cbuilds,\u201d each adding more functionality",
-        "C": "Freezing all requirements up front and avoiding any overlap in phases",
-        "D": "Submitting code directly to production with no intermediate checks"
+        "A": "Competitive assessments",
+        "B": "Customer specifications and importance",
+        "C": "Engineering approaches used to meet specifications",
+        "D": "Organizational structure"
       },
       "id": "Q66"
     },
     {
-      "question": "In the incremental model, each increment typically includes:",
+      "question": "Which of the following is *not* a strategy utilized in the “process‑redesign” phase of process improvement?",
       "correct_answer": "B",
       "options": {
-        "A": "Only the coding activity, because design and requirements are done once",
-        "B": "Requirements, design, coding, and testing for that increment\u2019s scope",
-        "C": "A complete rearchitecting of the product from scratch",
-        "D": "Maintenance tasks only, never new features"
+        "A": "Explore ways of combining activities",
+        "B": "Explore ways to motivate employees",
+        "C": "Explore ways of reducing task variance",
+        "D": "Explore ways for eliminating activities"
       },
       "id": "Q67"
     },
     {
-      "question": "Which is a benefit of the incremental model over a strict waterfall approach?",
-      "correct_answer": "B",
+      "question": "When analyzing a current process as a part of a process‑improvement activity, which of the following is *not* performed?",
+      "correct_answer": "A",
       "options": {
-        "A": "It avoids any need for design documentation",
-        "B": "It delivers usable parts of the software earlier, improving feedback and adaptability",
-        "C": "It mandates a 100% freeze of requirements from the first release",
-        "D": "It only applies to very small projects with under 10 developers"
+        "A": "Characterize the target process",
+        "B": "Identify value‑added activities",
+        "C": "Identify non‑value‑added activities",
+        "D": "Identify sources of variation in the process"
       },
       "id": "Q68"
     },
     {
-      "question": "A. The complete inability to accommodate changing requirements",
+      "question": "Which of the following is a common set of columns on a Kanban board?",
       "correct_answer": "B",
       "options": {
-        "B": "Potential rework if earlier increments need modification as new requirements emerge",
-        "C": "Long waiting times before the user sees any working functionality",
-        "D": "Zero overlap between increments, leading to rigid phases"
+        "A": "Initiated, In Progress, Completed",
+        "B": "To Do, In Progress, Done",
+        "C": "Planning, Designing, Coding",
+        "D": "Drafted, Published, Archived"
       },
       "id": "Q69"
     },
     {
-      "question": "Which type of incremental process has multiple increments in progress simultaneously?",
-      "correct_answer": "B",
+      "question": "In Root‑Cause Analysis, “creating liaisons among groups” is a possible solution for eliminating defects in which of the following root‑cause categories?",
+      "correct_answer": "A",
       "options": {
-        "A": "Sequential incremental",
-        "B": "Parallel or concurrent incremental",
-        "C": "A big-bang release cycle",
-        "D": "V-model incremental"
+        "A": "Communication failures",
+        "B": "Transcription defects",
+        "C": "Education defects",
+        "D": "Oversight"
       },
       "id": "Q70"
     },
     {
-      "question": "Q11.",
-      "correct_answer": "C",
+      "question": "Which of the following is *not* a part of the final adjusted function‑point count?",
+      "correct_answer": "B",
       "options": {
-        "A": "Implementing robust security controls",
-        "B": "The standard notion of business value or ROI",
-        "C": "Broader human values, such as empathy, diversity, and social responsibility",
-        "D": "The use of integrated development environments"
+        "A": "Unadjusted function‑point count",
+        "B": "Cost per function point",
+        "C": "Value‑adjustment factor",
+        "D": "None of the above"
       },
       "id": "Q71"
     },
     {
-      "question": "Which of the following is a practical approach suggested for incorporating human values into agile backlogs?",
+      "question": "Which of the following is incorporated into a Use‑Case‑Points calculation?",
       "correct_answer": "A",
       "options": {
-        "A": "Create \u201cvalue stories\u201d akin to user stories and designate a \u201cvalues guardian\u201d on the team",
-        "B": "Remove any mention of ethics or social issues from the backlog",
-        "C": "Limit the product backlog to short financial ROI metrics",
-        "D": "Outsource all design decisions about values to an external consultant"
+        "A": "The type of actor",
+        "B": "TCF (Technical Complexity Factor)",
+        "C": "Motivation of the team",
+        "D": "Required performance"
       },
       "id": "Q72"
     },
     {
-      "question": "Why might a team fail to address broader human values effectively, even if they care about them?",
-      "correct_answer": "C",
+      "question": "Which of the following is *not* one of the steps in Risk Management?",
+      "correct_answer": "D",
       "options": {
-        "A": "Because security and privacy are the only values that ever matter",
-        "B": "Because no companies have corporate values statements",
-        "C": "Because intangible concepts (e.g., social justice, equality) are harder to codify or measure in standard software processes",
-        "D": "Because it\u2019s illegal to incorporate intangible values into commercial software"
+        "A": "Identify and analyze risks",
+        "B": "Develop risk‑mitigation plans",
+        "C": "Implement risk‑mitigation plans",
+        "D": "Ignore the risk and discuss in next sprint planning"
       },
       "id": "Q73"
     },
     {
-      "question": "Which example best illustrates neglecting a human value in software development?",
-      "correct_answer": "B",
+      "question": "Which of the following issues are addressed in DevSecOps?",
+      "correct_answer": "A",
       "options": {
-        "A": "Delaying a release to fix severe security bugs",
-        "B": "Building an HR system that makes it difficult to see career gaps, ignoring a company\u2019s gender-equality commitments",
-        "C": "Documenting the design thoroughly for compliance reasons",
-        "D": "Prioritizing code refactoring to improve maintainability"
+        "A": "Code quality, reliability, assurance, security",
+        "B": "Code quality, reliability, assurance, waste management",
+        "C": "Code quality, waste management, assurance, security",
+        "D": "Code quality, reliability, waste management, security"
       },
       "id": "Q74"
     },
     {
-      "question": "What is the primary critique in \u201cIs Your Software Valueless?\u201d regarding the typical focus on \u201cvalue\u201d in software engineering?",
+      "question": "What does “Transcendental” mean in the Views‑of‑Software‑Quality framework?",
       "correct_answer": "A",
       "options": {
-        "A": "Developers typically interpret value purely in financial or economic terms, ignoring deeper human or social values",
-        "B": "Dev teams focus entirely on user-centered design and never incorporate business ROI",
-        "C": "Agile processes are always perfectly aligned with universal human values",
-        "D": "Traditional processes are automatically better at respecting intangible user preferences"
+        "A": "You know quality only when you see it",
+        "B": "Emphasis on following good process",
+        "C": "Different users may have different views of quality",
+        "D": "Addresses trade‑offs of cost versus quality"
       },
       "id": "Q75"
     },
     {
-      "question": "Q16.A.key emphasis of Lean software development is:",
-      "correct_answer": "C",
+      "question": "Which of the following is *not* an example of a maturity model?",
+      "correct_answer": "D",
       "options": {
-        "A": "Maintaining large amounts of inventory and redundancy to prevent mistakes",
-        "B": "Strictly following a single-phase waterfall approach",
-        "C": "Eliminating waste and focusing on the highest-value activities for the customer",
-        "D": "Using the biggest possible team to ensure maximum coverage"
+        "A": "Capability Maturity Model",
+        "B": "Testing Maturity Model",
+        "C": "Software‑Product Maturity Model",
+        "D": "Agile‑Team Maturity Model"
       },
       "id": "Q76"
     },
     {
-      "question": "Which of the following is not one of the 7 principles of Lean software development?",
+      "question": "Which of the following is *not* an anti‑pattern observed in hybrid‑agile efforts?",
       "correct_answer": "D",
       "options": {
-        "A": "Optimize the whole",
-        "B": "Build quality in",
-        "C": "Deliver fast",
-        "D": "Deny collaboration among team members"
+        "A": "Using proxy releases",
+        "B": "Essentially following traditional development",
+        "C": "Adopting agile ceremonies and then backtracking",
+        "D": "Strictly limiting work‑in‑progress (WIP) to team capacity"
       },
       "id": "Q77"
     },
     {
-      "question": "The Lean principle of \u201cBuild quality in\u201d suggests which practice?",
+      "question": "Which of the following is *not* appropriate to include in a software‑outsourcing statement‑of‑work (SOW)?",
       "correct_answer": "B",
       "options": {
-        "A": "Rely on a final inspection step rather than preventing defects earlier",
-        "B": "Integrate quality checks and testing throughout development, preventing errors up front",
-        "C": "Request that only the product owner is responsible for code correctness",
-        "D": "Focus strictly on process metrics rather than actual code quality"
+        "A": "Definition of the project‑reporting requirements to be used",
+        "B": "Identification of the specific unit‑testing tool the vendor must use",
+        "C": "Specification of the configuration‑management process to follow",
+        "D": "Specification of the development methodology to follow"
       },
       "id": "Q78"
     },
     {
-      "question": "According to Lean principles, \u201cEngage everyone\u201d implies:",
-      "correct_answer": "B",
+      "question": "Which of the following statements is *not* true regarding the CMMI model?",
+      "correct_answer": "C",
       "options": {
-        "A": "Only top managers can review code changes or requirements",
-        "B": "Everyone from the development team to stakeholders and users should be involved in improving the process and product",
-        "C": "Each developer is forced to present monthly progress to upper management in a formal meeting",
-        "D": "Outsource all decision-making to a separate department"
+        "A": "The CMMI model is more prescriptive than ISO standards.",
+        "B": "An organization can be assessed at different maturity levels depending on whether they use the staged or continuous model.",
+        "C": "The levels of maturity correspond to the number and maturity of the software‑development personnel in the organization.",
+        "D": "CMMI integrates software development with systems engineering and product development."
       },
       "id": "Q79"
     },
     {
-      "question": "Which statement best captures the Lean concept of \u201cLearn constantly\u201d?",
-      "correct_answer": "C",
+      "question": "Which of the following is *not* a component in a quality‑attribute scenario?",
+      "correct_answer": "D",
       "options": {
-        "A": "Complete the entire development without user feedback to avoid confusion",
-        "B": "Make all critical decisions upfront before any prototypes",
-        "C": "Encourage frequent experimentation, gather feedback, and refine decisions as you go",
-        "D": "Avoid iteration to reduce overhead"
+        "A": "Stimulus",
+        "B": "Environment",
+        "C": "Response measure",
+        "D": "Complexity of code"
       },
       "id": "Q80"
     },
     {
-      "question": "Which of the following best describes the concept of \u201cwaste\u201d in Lean software development?",
+      "question": "How does scaling Agile change when teams move to a distributed environment?",
       "correct_answer": "B",
       "options": {
-        "A": "Everything that helps the customer and developers deliver quickly",
-        "B": "Anything that does not add value (from the customer\u2019s viewpoint)",
-        "C": "All documentation, regardless of purpose",
-        "D": "Any code that passes all tests"
+        "A": "Difficulty decreases",
+        "B": "Difficulty increases",
+        "C": "Difficulty first decreases and then increases",
+        "D": "Neither decreases nor increases"
       },
       "id": "Q81"
     },
     {
-      "question": "Which Lean principle focuses on doing short, repeated cycles of work and gathering continuous feedback?",
-      "correct_answer": "B",
+      "question": "Which of the following skills are necessary for *successful project leaders*? (Select all that apply.)",
+      "correct_answer": ["A", "B", "C", "D"],
       "options": {
-        "A": "Eliminate Waste",
-        "B": "Amplify Learning",
-        "C": "Decide as Late as Possible",
-        "D": "Keep Getting Better"
+        "A": "Communication",
+        "B": "Delegation",
+        "C": "Negotiation",
+        "D": "Motivation"
       },
-      "id": "Q82"
+      "id": "Q82",
+      "type": "multiple_select"
     },
     {
-      "question": "The Lean principle \u201cDecide as Late as Possible\u201d is generally recommended because:",
+      "question": "Which of the following is a *false* statement regarding the “laws of software engineering”?",
       "correct_answer": "C",
       "options": {
-        "A": "It allows teams to lock requirements very early",
-        "B": "It prevents any overlap between development phases",
-        "C": "It keeps options open until more is known, reducing risk and rework",
-        "D": "It forces an entirely waterfall approach"
+        "A": "Adding people to a late project makes it later",
+        "B": "Software reflects the organizational structure that produced it",
+        "C": "Good software engineers drive out bad software managers",
+        "D": "Bad management drives out good software engineers"
       },
       "id": "Q83"
     },
     {
-      "question": "Which of these is not an explicit Lean principle?",
-      "correct_answer": "C",
+      "question": "Which of the following is a *false* statement regarding top‑down / analogy estimation?",
+      "correct_answer": "A",
       "options": {
-        "A": "\u201cEliminate waste\u201d",
-        "B": "\u201cDeliver fast\u201d",
-        "C": "\u201cEmpower only top managers\u201d",
-        "D": "\u201cBuild quality in\u201d"
+        "A": "The technique works well for new types of projects",
+        "B": "An expert develops the estimate",
+        "C": "The estimator must adjust for differences among projects",
+        "D": "It can be combined with the Delphi technique"
       },
       "id": "Q84"
     },
     {
-      "question": "In Lean, the method of asking \u201cWhy?\u201d repeatedly (e.g., five times) helps:",
-      "correct_answer": "C",
+      "question": "Which is NOT a principle of Lean software development?",
+      "correct_answer": "B",
       "options": {
-        "A": "Assign blame to specific developers",
-        "B": "Identify sub-optimizations in coding style",
-        "C": "Identify the root cause behind a recurring problem",
-        "D": "Ensure everyone strictly follows the same coding standard"
+        "A": "Build quality in",
+        "B": "Maximize upfront planning",
+        "C": "Deliver fast",
+        "D": "Eliminate waste"
       },
       "id": "Q85"
     },
     {
-      "question": "Q6.",
+      "question": "Which of the following is NOT typically an activity outsourced?",
       "correct_answer": "C",
       "options": {
-        "A": "Using minimal external libraries to reduce agility",
-        "B": "Avoiding open source dependencies altogether",
-        "C": "Assembling applications from externally sourced open source components",
-        "D": "Replacing all open source with proprietary solutions"
+        "A": "Developing software",
+        "B": "Testing software",
+        "C": "Maintaining software",
+        "D": "All of the above are activities outsourced"
       },
       "id": "Q86"
     },
     {
-      "question": "According to the data presented, approximately what portion of an enterprise application might be open source?",
-      "correct_answer": "C",
+      "question": "Which of the following is NOT in the “3 C Approach for Agile Quality Assurance”?",
+      "correct_answer": "B",
       "options": {
-        "A": "1\u20135%",
-        "B": "20\u201330%",
-        "C": "75\u201380%",
-        "D": "90\u2013100%"
+        "A": "Continuous integration",
+        "B": "Continuous measurement",
+        "C": "Continuous improvement",
+        "D": "All of the above are in the “3 C Approach for Agile Quality Assurance”"
       },
       "id": "Q87"
     },
     {
-      "question": "One risk associated with using open source components is:",
+      "question": "Which category is “code factoring” appropriate for in agile technical‑debt management?",
       "correct_answer": "C",
       "options": {
-        "A": "Guaranteed perfect security and no licensing issues",
-        "B": "Components are always updated automatically",
-        "C": "Introduced vulnerabilities or outdated code that can go unnoticed",
-        "D": "All open source code is always malicious"
+        "A": "Prevention",
+        "B": "Monitoring",
+        "C": "Repayment",
+        "D": "Assessment"
       },
       "id": "Q88"
     },
     {
-      "question": "In a large-scale, component-based software supply chain, \u201ctransitive dependencies\u201d refer to:",
-      "correct_answer": "B",
+      "question": "Consider a usability metric rated 1–10 (1 = very poor, 10 = excellent). On a measurement‑scale hierarchy, what is the highest classification of this metric?",
+      "correct_answer": "C",
       "options": {
-        "A": "A developer\u2019s personal preference for certain frameworks",
-        "B": "Secondary or nested dependencies that an included component itself relies on",
-        "C": "Code that is entirely custom and requires no external libraries",
-        "D": "Components that never need updating"
+        "A": "Nominal",
+        "B": "Ratio",
+        "C": "Interval",
+        "D": "Ordinal"
       },
       "id": "Q89"
     },
     {
-      "question": "Which of these steps is not part of the recommended Component Life Cycle Management (CLM)?",
-      "correct_answer": "D",
+      "question": "Which of the following statements about Cyclomatic Complexity is correct?",
+      "correct_answer": "B",
       "options": {
-        "A": "Inventory current open source usage",
-        "B": "Analyze for vulnerabilities and licensing issues",
-        "C": "Control adoption with policies and processes",
-        "D": "Ignore updates unless a major breach occurs"
+        "A": "It measures the size of the codebase.",
+        "B": "It determines the number of independent execution paths in a program.",
+        "C": "It calculates the memory usage of an application.",
+        "D": "It evaluates the performance of algorithms."
       },
       "id": "Q90"
     },
     {
-      "question": "(These slides reinforce similar topics as the paper; we include relevant questions specific to the slides.)",
-      "options": {},
+      "question": "Which of the following best describes how to determine development time on an agile project?",
+      "correct_answer": "A",
+      "options": {
+        "A": "Sum the story points and divide by velocity",
+        "B": "Sum the story points and multiply by velocity",
+        "C": "Divide velocity by sum of story points",
+        "D": "Multiply velocity by available personnel"
+      },
       "id": "Q91"
     },
     {
-      "question": "Which statement best summarizes the lecture slides\u2019 viewpoint on open source in the software supply chain?",
-      "correct_answer": "B",
+      "question": "Which of the following is NOT a step in the SISE technique?",
+      "correct_answer": "A",
       "options": {
-        "A": "Open source dependencies are negligible and rarely used",
-        "B": "Open source components must be monitored closely for security, version updates, and IP issues",
-        "C": "All open source code is guaranteed safe because so many people review it",
-        "D": "Teams should store open source code in one monolithic repository and never update it"
+        "A": "Integrate estimates from other team members to create a project estimate",
+        "B": "Identify differences between planned activity and historical tasks",
+        "C": "Size: determine the prediction interval",
+        "D": "Evaluate: adjust historical estimate by any bias"
       },
       "id": "Q92"
     },
     {
-      "question": "Why are transitive dependencies especially challenging, according to the slides?",
-      "correct_answer": "B",
+      "question": "To manage distributed software‑development teams, managers must: (Select all that apply.)",
+      "correct_answer": ["A", "B", "C", "D"],
       "options": {
-        "A": "They are always fully documented, so it\u2019s easy to track them",
-        "B": "They often pull in additional vulnerabilities or licensing risks beyond the direct component",
-        "C": "They require zero maintenance compared to direct dependencies",
-        "D": "They come with guaranteed vendor support in all cases"
+        "A": "Know how to build teams across sites",
+        "B": "Know how to break down and distribute work",
+        "C": "Know how to share knowledge across time, space, and cultural differences",
+        "D": "Know how to coordinate work"
       },
-      "id": "Q93"
+      "id": "Q93",
+      "type": "multiple_select"
     },
     {
-      "question": "From the slides, which best defines \u201cmonitoring updates\u201d in the context of open source components?",
+      "question": "Which of the following is a FALSE statement about an outsourcing Statement of Work (SOW)?",
       "correct_answer": "B",
       "options": {
-        "A": "Only checking for new versions once every five years",
-        "B": "Continuously tracking new releases, security patches, and licensing changes for each used component",
-        "C": "Creating an internal fork of each project and never revisiting it",
-        "D": "Delegating all update responsibilities solely to the product owner"
+        "A": "A SOW may specify specific processes to be followed",
+        "B": "A SOW includes the effort for vendor management",
+        "C": "A SOW defines all of the tasks to be performed",
+        "D": "A SOW defines maintenance responsibilities"
       },
       "id": "Q94"
     },
     {
-      "question": "Q14.",
-      "correct_answer": "B",
+      "question": "Which of the following is NOT a factor to consider when analysing defect‑inducing changes made to software?",
+      "correct_answer": "A",
       "options": {
-        "A": "Scrum Master",
-        "B": "Product Owner",
-        "C": "Development Team",
-        "D": "Stakeholders"
+        "A": "Experience of the test team",
+        "B": "Experience of developers",
+        "C": "Purpose of change",
+        "D": "Size of change"
       },
       "id": "Q95"
     },
     {
-      "question": "Which of the following is not typically included in a Scrum activity?",
-      "correct_answer": "D",
+      "question": "According to IEEE Standard 730, which of the following is NOT a process‑assurance activity?",
+      "correct_answer": "A",
       "options": {
-        "A": "Sprint Planning",
-        "B": "Sprint Retrospective",
-        "C": "Daily Stand-up Meeting",
-        "D": "Complete freeze of requirements for a year"
+        "A": "Measure product",
+        "B": "Evaluate environments for conformance",
+        "C": "Evaluate subcontractor processes for conformance",
+        "D": "Assess staff skill and knowledge"
       },
       "id": "Q96"
     },
     {
-      "question": "Scrum describes the product backlog as:",
-      "correct_answer": "B",
+      "question": "Which of the following is NOT a component of an outsourcing agreement?",
+      "correct_answer": "A",
       "options": {
-        "A": "A low-priority collection of leftover tasks",
-        "B": "A single, prioritized list of all potential work, features, and requirements for the product",
-        "C": "A daily list of tasks each developer must finish by end-of-day",
-        "D": "The final sign-off document for the entire project"
+        "A": "Specific team members working on the project",
+        "B": "Statement of work",
+        "C": "Contract",
+        "D": "Technical specifications"
       },
       "id": "Q97"
     },
     {
-      "question": "Which Scrum artifact visually shows how much work remains and is updated daily?",
-      "correct_answer": "A",
+      "question": "Which one of the following would NOT be appropriate to include in a statement of work (SOW) for a company to which you are outsourcing the development of a new software application?",
+      "correct_answer": "B",
       "options": {
-        "A": "Burn Down chart",
-        "B": "Kanban queue",
-        "C": "Product backlog grooming sheet",
-        "D": "Roadmap milestone plan"
+        "A": "Definition of the project reporting requirements to be utilised",
+        "B": "Identification of the software unit‑testing tool to utilise",
+        "C": "Specification of the configuration‑management process to follow",
+        "D": "Specification of the development methodology to follow"
       },
       "id": "Q98"
     },
     {
-      "question": "The Scrum Master\u2019s main job includes:",
+      "question": "Which of the following is NOT an anti‑pattern observed in hybrid‑agile efforts?",
       "correct_answer": "C",
       "options": {
-        "A": "Creating the product backlog and deciding business priorities",
-        "B": "Hiding impediments to protect the team\u2019s image",
-        "C": "Facilitating the process, removing blockers, and shielding the team from distractions",
-        "D": "Approving each code commit before it merges"
+        "A": "Using proxy releases",
+        "B": "Essentially following traditional development",
+        "C": "Managing risk exposure",
+        "D": "Telling the team to work harder"
       },
       "id": "Q99"
     },
     {
-      "question": "Which is a key question each team member typically answers in the Daily Scrum (stand-up) meeting?",
+      "question": "Which of the following is not incorporated into a use‑case‑point calculation?",
       "correct_answer": "C",
       "options": {
-        "A": "\u201cWhen do I take my vacation?\u201d",
-        "B": "\u201cWhich tasks can we postpone next month?\u201d",
-        "C": "\u201cWhat did I do yesterday? What will I do today? Any impediments?\u201d",
-        "D": "\u201cWho should be blamed for the last bug?\u201d"
+        "A": "The number of internal logical files",
+        "B": "The type of actor",
+        "C": "Motivation of the team",
+        "D": "Required performance"
       },
       "id": "Q100"
     },
     {
-      "question": "Which Scrum event is held at the end of each sprint to inspect the developed product increments and potentially adapt the product backlog?",
-      "correct_answer": "A",
+      "question": "Which of the following is not a basic function of software project managers?",
+      "correct_answer": "B",
       "options": {
-        "A": "Sprint Review",
-        "B": "Daily Stand-up",
-        "C": "Product Roadmapping",
-        "D": "Gantt Chart Finalization"
+        "A": "Scheduling",
+        "B": "Developing the software architecture",
+        "C": "Controlling",
+        "D": "Motivating"
       },
       "id": "Q101"
     },
     {
-      "question": "Q1.",
-      "correct_answer": "C",
+      "question": "Which of the following is a false statement concerning SCRUM and CMMI?",
+      "correct_answer": "A",
       "options": {
-        "A": "A project manager with authority to assign tasks to developers",
-        "B": "A product visionary who prioritizes features",
-        "C": "A facilitator who removes impediments and protects the team from external distractions",
-        "D": "A line manager who enforces punishments for missing deadlines"
+        "A": "All CMMI level‑3 technical practices are fully supported by SCRUM",
+        "B": "CMMI level‑4 and level‑5 practices may compromise SCRUM agility",
+        "C": "Additional discipline can be added to some SCRUM practices to map to CMMI practices",
+        "D": "All of the above are true statements"
       },
       "id": "Q102"
     },
     {
-      "question": "In Scrum, the Daily Stand-up typically takes no more than 15 minutes to:",
+      "question": "When making a decision regarding reducing technical debt, which of the following is not a factor to take into consideration?",
       "correct_answer": "C",
       "options": {
-        "A": "Ensure that team members remain standing the entire workday",
-        "B": "Review the entire release plan in detail",
-        "C": "Provide each person the chance to quickly state progress, next steps, and impediments",
-        "D": "Conduct extensive backlog grooming sessions"
+        "A": "Probability of technology disruption",
+        "B": "Reliability demanded by the business",
+        "C": "Customer satisfaction",
+        "D": "All of the above are factors to consider"
       },
       "id": "Q103"
     },
     {
-      "question": "Which of the following is not a typical Scrum artifact mentioned in \u201cScrum is Simple!\u201d?",
+      "question": "Consider a measure of usability from a user perspective defined on a scale of 1–10 (1 = poor, 10 = excellent). On a measurement scale, what is the highest classification of this metric?",
       "correct_answer": "C",
       "options": {
-        "A": "Product Backlog",
-        "B": "Sprint Backlog",
-        "C": "Gantt Chart",
-        "D": "Sprint Burn-down Chart"
+        "A": "Nominal",
+        "B": "Ratio",
+        "C": "Interval",
+        "D": "Ordinal"
       },
       "id": "Q104"
     },
     {
-      "question": "The Sprint Retrospective in Scrum is intended to:",
-      "correct_answer": "C",
+      "question": "Which of the following is a false statement regarding top‑down / analogy estimation?",
+      "correct_answer": "A",
       "options": {
-        "A": "Identify mistakes and place blame on individuals",
-        "B": "Plan the entire next release in one lengthy meeting",
-        "C": "Evaluate the sprint just completed, identify improvements, and adapt processes",
-        "D": "Demonstrate completed features to stakeholders"
+        "A": "The technique works well for new types of projects",
+        "B": "An expert develops the estimate",
+        "C": "Can be used with the Delphi technique",
+        "D": "The estimator must take into account differences among projects"
       },
       "id": "Q105"
     },
     {
-      "question": "Q5.A.System of Systems (SoS) is best characterized by:",
-      "correct_answer": "B",
+      "question": "Which of the following best describes how to calculate a 70 percent confidence interval from a set of individual estimates of project components?",
+      "correct_answer": "C",
       "options": {
-        "A": "A single, monolithic system used by one organization",
-        "B": "Multiple independent systems integrated to provide new capabilities",
-        "C": "Only legacy systems with no external dependencies",
-        "D": "A single subsystem with no separate management"
+        "A": "Square root of the sum of the individual estimate variances",
+        "B": "Expected value ± the sum of the variances of the individual estimates",
+        "C": "Expected value ± the standard deviation of the sum of the variances of the individual estimates",
+        "D": "(Maximum estimate – minimum estimate) / 6"
       },
       "id": "Q106"
     },
     {
-      "question": "In a service-oriented approach, each service typically:",
-      "correct_answer": "B",
+      "question": "Which of the following best describes how to determine development time in an agile project?",
+      "correct_answer": "A",
       "options": {
-        "A": "Directly accesses a consumer\u2019s database tables",
-        "B": "Exposes a well-defined, standardized interface, hiding implementation details",
-        "C": "Avoids using any standardized communication protocols",
-        "D": "Must be manually deployed onto each consumer\u2019s local environment"
+        "A": "Sum the story points and divide by velocity",
+        "B": "Sum the story points and multiply by velocity",
+        "C": "Divide velocity by the sum of story points",
+        "D": "Multiply velocity by available personnel"
       },
       "id": "Q107"
     },
     {
-      "question": "According to \u201cService Orientation and Systems of Systems,\u201d which key challenge arises when using service-oriented principles in a multi-organizational SoS?",
-      "correct_answer": "C",
+      "question": "Which of the following is not a step in the SISE technique?",
+      "correct_answer": "B",
       "options": {
-        "A": "Services always remain stable and never need updates",
-        "B": "Ensuring a single central manager that controls all constituent systems",
-        "C": "Enforcing consistent standards, trust, security, and governance across independent entities",
-        "D": "Only trivial semantic integration tasks remain"
+        "A": "Identifying differences between planned activity and historical tasks",
+        "B": "Integrate: integrate estimates from other team members to create project estimate",
+        "C": "Size: determine the prediction interval",
+        "D": "Evaluate: adjust historical estimate by any bias"
       },
       "id": "Q108"
     },
     {
-      "question": "What is the capabilities repository concept mentioned in the SoS discussion?",
-      "correct_answer": "A",
+      "question": "Which of the following is not a typical advantage of global software development?",
+      "correct_answer": "C",
       "options": {
-        "A": "A specialized location where each constituent system's available services or capabilities are published for potential reuse",
-        "B": "A standalone development environment for building monolithic systems",
-        "C": "A single-user spreadsheet that only the SoS integrator can view",
-        "D": "A security library used solely for encryption"
+        "A": "Cost reduction",
+        "B": "Reduced cycle time",
+        "C": "More consistent and predictable turnover rates of staffing",
+        "D": "Sharing benefits of resources from different cultures and backgrounds"
       },
       "id": "Q109"
     },
     {
-      "question": "Q9.",
-      "correct_answer": "B",
+      "question": "When performing the analysis (process‑improvement) step, which of the following is not performed?",
+      "correct_answer": "A",
       "options": {
-        "A": "Minimizing user interaction during development",
-        "B": "Ensuring changes are tracked, approved, and correctly implemented to maintain product integrity",
-        "C": "Writing code more quickly without documentation",
-        "D": "Eliminating all need for version control tools"
+        "A": "Process redesign to improve performance",
+        "B": "Identify value‑added activities",
+        "C": "Identify non‑value‑added activities",
+        "D": "Identify sources of variation in the process"
       },
       "id": "Q110"
     },
     {
-      "question": "A. The entire business organization structure",
-      "correct_answer": "C",
+      "question": "Which of the following is not a post‑mortem analysis technique?",
+      "correct_answer": "D",
       "options": {
-        "B": "A single code line or snippet only",
-        "C": "Any aggregation of hardware, software, or documentation that satisfies an end-use function",
-        "D": "The user interface design alone"
+        "A": "Identification of major defects",
+        "B": "Interview key personnel",
+        "C": "Statistical analysis of data",
+        "D": "Identifying under‑performing developers"
       },
       "id": "Q111"
     },
     {
-      "question": "Configuration audits are performed in SCM primarily to:",
-      "correct_answer": "C",
+      "question": "Which of the following is not an activity in the root‑cause‑analysis process?",
+      "correct_answer": "A",
       "options": {
-        "A": "Identify new user requirements",
-        "B": "Conduct final acceptance testing exclusively for performance",
-        "C": "Independently ensure the product\u2019s configuration matches the approved baselines and documentation",
-        "D": "Approve new staff for the project"
+        "A": "Each defect fix is analyzed to determine its return on investment",
+        "B": "Team selects defects to analyze",
+        "C": "Each defect is analyzed to determine its probable root cause",
+        "D": "Team selects root causes to address"
       },
       "id": "Q112"
     },
     {
-      "question": "A. Automatically merges all code changes without review",
-      "correct_answer": "B",
+      "question": "Which of the following is the best definition of software quality?",
+      "correct_answer": "A",
       "options": {
-        "B": "Evaluates and approves (or disapproves) change requests before they are implemented",
-        "C": "Is optional and rarely used in any SCM processes",
-        "D": "Solely handles product backlog items in Scrum"
+        "A": "The extent that specific software product attributes of interest to the customer are satisfied",
+        "B": "The extent that specific software product attributes of interest to the developers are satisfied",
+        "C": "The extent that the product is defect‑free",
+        "D": "The extent that the process complies with ISO 9001"
       },
       "id": "Q113"
     },
     {
-      "question": "Q13.",
-      "correct_answer": "B",
+      "question": "Which of the following is a false statement regarding ‘utility trees’ for quality attributes?",
+      "correct_answer": "C",
       "options": {
-        "A": "Very low cost and quick delivery times",
-        "B": "High cost, poor reliability, difficult maintenance, and user dissatisfaction",
-        "C": "No issues were reported, as everything was well managed from the start",
-        "D": "Fully automated code generation with zero defects"
+        "A": "The quality scenarios are the leaves of the utility tree",
+        "B": "The quality goals are identified at the highest level in the utility tree",
+        "C": "Quality‑attribute scenarios in a utility tree are only prioritised by the customer",
+        "D": "Utility trees are used to identify and refine the most important quality‑attribute goals"
       },
       "id": "Q114"
     },
     {
-      "question": "The term \u201csoftware engineering\u201d was first prominently used during a workshop in 1968 to address:",
-      "correct_answer": "C",
+      "question": "According to IEEE Standard 730, which of the following is not a product‑assurance activity?",
+      "correct_answer": "A",
       "options": {
-        "A": "Hardware design optimizations",
-        "B": "The shrinking scope of software in modern systems",
-        "C": "Growing problems of software project management, cost, reliability, and maintenance",
-        "D": "The immediate shift from coding in assembly language to high-level languages"
+        "A": "Measure process",
+        "B": "Evaluate product for conformance to established requirements",
+        "C": "Evaluate product for acceptability",
+        "D": "Evaluate product life‑cycle support for conformance"
       },
       "id": "Q115"
     },
     {
-      "question": "Which best describes a major challenge in early software development history?",
+      "question": "Functional safety as a quality attribute is best associated with which of the following levels?",
       "correct_answer": "D",
       "options": {
-        "A": "Overly advanced version control systems in the 1960s",
-        "B": "Guaranteed user acceptance of all delivered software",
-        "C": "Maintenance was simple due to minimal code size",
-        "D": "Projects were extremely expensive, often late, and had many defects"
+        "A": "Unit level",
+        "B": "Component level",
+        "C": "Integration level",
+        "D": "System level"
       },
       "id": "Q116"
     },
     {
-      "question": "Which modern statement still resonates from the initial software crisis?",
-      "correct_answer": "B",
+      "question": "Which of the following best describes Life‑Cycle Assessment (LCA) for a software product?",
+      "correct_answer": "A",
       "options": {
-        "A": "Software is always trivially easy to maintain",
-        "B": "Large, complex projects often face cost overruns and quality issues",
-        "C": "All reliability concerns have been fully resolved",
-        "D": "Customer satisfaction is no longer a concern"
+        "A": "LCA can be applied to the software development process and/or the process in which the software is embedded",
+        "B": "LCA is exclusively applied to the software development process",
+        "C": "LCA is exclusively applied to the process for which the software is embedded",
+        "D": "LCA is not applicable to software since it does not have environmental impacts"
       },
       "id": "Q117"
     },
     {
-      "question": "Q17.",
-      "correct_answer": "B",
+      "question": "In the ‘3C Approach for Agile Quality’, which of the following is not measured as part of continuous measurement?",
+      "correct_answer": "A",
       "options": {
-        "A": "High cost",
-        "B": "Effortless user acceptance",
-        "C": "Difficult maintainability",
-        "D": "Poor reliability"
+        "A": "Code size",
+        "B": "Code complexity",
+        "C": "Project velocity",
+        "D": "Test coverage"
       },
       "id": "Q118"
     },
     {
-      "question": "The slides mention that user acceptance can be hindered if:",
-      "correct_answer": "B",
+      "question": "From a legal perspective, which of the following best describes the situation where a software defect can be proven to result from the developer’s failure to apply due care?",
+      "correct_answer": "D",
       "options": {
-        "A": "The system always uses industry-standard GUIs",
-        "B": "The interface is cryptic or not user-friendly",
-        "C": "The final product is fully documented",
-        "D": "The cost is reduced"
+        "A": "Fraud",
+        "B": "Malpractice",
+        "C": "Breach of warranty",
+        "D": "Negligence"
       },
       "id": "Q119"
-    },
-    {
-      "question": "Poor reliability in large software projects is often connected to:",
-      "correct_answer": "B",
-      "options": {
-        "A": "Zero defects in thousands of lines of code",
-        "B": "Typical defect rates around 1 delivered defect per thousand lines of code",
-        "C": "Exclusive usage of advanced artificial intelligence tooling",
-        "D": "Waterfall approaches always guaranteeing minimal bugs"
-      },
-      "id": "Q120"
-    },
-    {
-      "question": "Which statement about maintainability from the \u201cSoftware Development SOA\u201d slides is correct?",
-      "correct_answer": "C",
-      "options": {
-        "A": "Modern languages have completely solved all maintenance problems",
-        "B": "Software maintenance is easy once the product is delivered",
-        "C": "Despite improved methods, software is still difficult and costly to maintain",
-        "D": "User requests for changes are generally unnecessary"
-      },
-      "id": "Q121"
-    },
-    {
-      "question": "(Because the slides themselves aren\u2019t fully shown in the snippet, the questions here reflect typical best practices for software projects gleaned from various standard references on success factors.)",
-      "options": {},
-      "id": "Q122"
-    },
-    {
-      "question": "Which of the following best describes a common factor in successful software projects?",
-      "correct_answer": "B",
-      "options": {
-        "A": "Relying solely on heroic individual efforts to meet deadlines",
-        "B": "Clear requirements, stakeholder involvement, and realistic planning",
-        "C": "Having no formal testing or code reviews to speed development",
-        "D": "Consistently ignoring scope creep"
-      },
-      "id": "Q123"
-    },
-    {
-      "question": "One typical early warning sign of a project heading for failure is:",
-      "correct_answer": "C",
-      "options": {
-        "A": "Requirements are well-defined and remain stable",
-        "B": "Stakeholders communicate frequently and clearly",
-        "C": "An ill-defined scope and lack of stakeholder engagement",
-        "D": "The team completes tasks ahead of schedule"
-      },
-      "id": "Q124"
-    },
-    {
-      "question": "Software project success is often measured by:",
-      "correct_answer": "B",
-      "options": {
-        "A": "The volume of code produced",
-        "B": "Actual outcomes meeting expectations (scope, time, cost, quality)",
-        "C": "The number of frameworks used",
-        "D": "Zero defects in the entire codebase, no matter the scope"
-      },
-      "id": "Q125"
-    },
-    {
-      "question": "In managing a successful project, a key strategy is:",
-      "correct_answer": "C",
-      "options": {
-        "A": "Postponing risk management until the very end",
-        "B": "Ignoring lessons from previous projects",
-        "C": "Conducting regular status checks, risk assessments, and stakeholder reviews",
-        "D": "Prohibiting any communication with customers"
-      },
-      "id": "Q126"
-    },
-    {
-      "question": "Q5.",
-      "correct_answer": "B",
-      "options": {
-        "A": "Completely eliminate all testing to speed up releases",
-        "B": "Bridge the gap between software development and operations for faster, more reliable delivery",
-        "C": "Slow down the process by adding additional gates",
-        "D": "Increase the friction between development and operations teams"
-      },
-      "id": "Q127"
-    },
-    {
-      "question": "Which CALMS dimension in DevOps emphasizes \u201ccross-functional teams, mutual trust, continuous improvement, and constant information flow\u201d?",
-      "correct_answer": "B",
-      "options": {
-        "A": "A \u2013 Automation",
-        "B": "C \u2013 Culture",
-        "C": "M \u2013 Measurement",
-        "D": "S \u2013 Sharing"
-      },
-      "id": "Q128"
-    },
-    {
-      "question": "In the DevOps model, automation typically addresses:",
-      "correct_answer": "C",
-      "options": {
-        "A": "Manual checks in every environment for each deployment",
-        "B": "No usage of CI/CD pipelines",
-        "C": "Automated build, test, and deployment pipelines to reduce human error and speed releases",
-        "D": "Paper-based sign-offs before each commit can merge"
-      },
-      "id": "Q129"
-    },
-    {
-      "question": "Which statement best aligns with the \u201cLean\u201d aspect of CALMS in DevOps?",
-      "correct_answer": "B",
-      "options": {
-        "A": "Lengthening feedback loops for more thorough planning",
-        "B": "Eliminating waste, tightening feedback cycles, and building quality in",
-        "C": "Encouraging multiple, uncoordinated processes for each environment",
-        "D": "Pushing all changes directly to production without any checks"
-      },
-      "id": "Q130"
-    },
-    {
-      "question": "Q9.",
-      "correct_answer": "B",
-      "options": {
-        "A": "A complete shift away from DevSecOps",
-        "B": "Increased focus on delivering value rather than just features",
-        "C": "Fewer analytics, with purely manual testing approaches",
-        "D": "Manual deployments replacing all automation"
-      },
-      "id": "Q131"
-    },
-    {
-      "question": "DevSecOps specifically addresses:",
-      "correct_answer": "C",
-      "options": {
-        "A": "Omitting security from continuous integration",
-        "B": "Continuous integration for feature velocity only, ignoring code quality",
-        "C": "Integrating security considerations and practices throughout the entire DevOps pipeline",
-        "D": "Restricting developers from participating in production deployments"
-      },
-      "id": "Q132"
-    },
-    {
-      "question": "Regarding AI and analytics in DevOps, future predictions suggest:",
-      "correct_answer": "C",
-      "options": {
-        "A": "Analytics are rarely beneficial during the development cycle",
-        "B": "The cost of analyzing user feedback is prohibitive, so it\u2019s discouraged",
-        "C": "Data-driven decision-making at every phase, from planning to testing",
-        "D": "The elimination of all data collection to avoid overhead"
-      },
-      "id": "Q133"
-    },
-    {
-      "question": "AIOps in the DevOps context refers to:",
-      "correct_answer": "B",
-      "options": {
-        "A": "Automating user interface design",
-        "B": "Artificial intelligence\u2013driven IT operations for enhanced automation and problem-solving",
-        "C": "Reducing observational metrics in production",
-        "D": "A practice of manual code reviews performed by AI"
-      },
-      "id": "Q134"
-    },
-    {
-      "question": "Q13.",
-      "correct_answer": "C",
-      "options": {
-        "A": "Respect",
-        "B": "Commitment",
-        "C": "Flexibility",
-        "D": "Focus"
-      },
-      "id": "Q135"
-    },
-    {
-      "question": "The Product Goal, introduced in the 2020 Scrum Guide, is best described as:",
-      "correct_answer": "A",
-      "options": {
-        "A": "A broad, long-term vision or objective for the product",
-        "B": "A daily to-do list for the DevOps team",
-        "C": "A strict replacement for user stories",
-        "D": "A chart that tracks daily tasks remaining"
-      },
-      "id": "Q136"
-    },
-    {
-      "question": "A. Inspecting the Sprint\u2019s outcome (the increment) and adapting the product backlog if needed",
-      "correct_answer": "A",
-      "options": {
-        "B": "Identifying purely internal process improvements",
-        "C": "Discussing personal performance metrics for each developer",
-        "D": "Final sign-off on the entire product scope"
-      },
-      "id": "Q137"
-    },
-    {
-      "question": "The Definition of Done in Scrum:",
-      "correct_answer": "C",
-      "options": {
-        "A": "Is optional, used only if time permits",
-        "B": "Must be broad and generic to fit all projects",
-        "C": "Is a shared agreement that clarifies when an increment meets the required quality standards",
-        "D": "Is never revised once established"
-      },
-      "id": "Q138"
-    },
-    {
-      "question": "Q17.",
-      "correct_answer": "B",
-      "options": {
-        "A": "Releasing every new feature only once a year",
-        "B": "Automatically testing and frequently deploying small software changes to production",
-        "C": "Mandating manual, large-batch releases with lengthy intervals",
-        "D": "Avoiding dark launches and experiments"
-      },
-      "id": "Q139"
-    },
-    {
-      "question": "A. Features should be developed without any tests",
-      "correct_answer": "B",
-      "options": {
-        "B": "You collect data and see how users respond, then modify or remove features if not adopted",
-        "C": "All features must be shipped in one big release",
-        "D": "No analytics should be used in production"
-      },
-      "id": "Q140"
-    },
-    {
-      "question": "In continuous deployment, the phrase \u201cThe cost of change is dead\u201d suggests that:",
-      "correct_answer": "C",
-      "options": {
-        "A": "Changes are extremely expensive due to heavy rework",
-        "B": "Fixing field defects remains far too time-consuming",
-        "C": "Rapid feedback and quick deployment cycles drastically reduce the overhead of making changes",
-        "D": "Teams rely on monthly batch updates for cost savings"
-      },
-      "id": "Q141"
-    },
-    {
-      "question": "Which of the following is not one of the \u201cTop 10 Adages\u201d for continuous deployment as presented?",
-      "correct_answer": "C",
-      "options": {
-        "A": "\u201cYou are the support person.\u201d",
-        "B": "\u201cInvest in automation or tools for survival.\u201d",
-        "C": "\u201cSecurity can wait until after deployment.\u201d",
-        "D": "\u201cConfiguration is code.\u201d"
-      },
-      "id": "Q142"
-    },
-    {
-      "question": "Q1.",
-      "correct_answer": "B",
-      "options": {
-        "A": "Releasing features very rarely but with massive content",
-        "B": "Combining development and operations to speed up and stabilize software delivery",
-        "C": "Shifting all operational responsibilities to developers only",
-        "D": "Eliminating the role of Product Management"
-      },
-      "id": "Q143"
-    },
-    {
-      "question": "Which of the following best explains why traditional \u201cphase-gate\u201d or \u201cwaterfall\u201d models can be problematic compared to DevOps in a fast-moving market?",
-      "correct_answer": "C",
-      "options": {
-        "A": "Phase-gate models are cheaper to implement",
-        "B": "DevOps cannot handle frequent security updates",
-        "C": "Infrequent large releases can lead to missed market opportunities, slow feedback, and crisis mode when defects appear",
-        "D": "Phase-gate models deliver small, incremental updates"
-      },
-      "id": "Q144"
-    },
-    {
-      "question": "In the CALMS framework for DevOps, \u201cM\u201d (Measurement) emphasizes:",
-      "correct_answer": "C",
-      "options": {
-        "A": "Avoiding metrics altogether to keep dev teams free from constraints",
-        "B": "Using continuous integration but ignoring production feedback",
-        "C": "Monitoring key software and business metrics so teams can make data-driven decisions",
-        "D": "Relying solely on manual logs for debugging"
-      },
-      "id": "Q145"
-    },
-    {
-      "question": "Which statement about DevOps culture (the \u201cC\u201d in CALMS) is most accurate?",
-      "correct_answer": "B",
-      "options": {
-        "A": "It thrives on strong organizational silos between dev and ops",
-        "B": "It stresses mutual trust, continuous improvement, and open communication across teams",
-        "C": "It discourages collaboration across different roles",
-        "D": "It is identical to the culture in waterfall-based approaches"
-      },
-      "id": "Q146"
-    },
-    {
-      "question": "Q5.",
-      "correct_answer": "C",
-      "options": {
-        "A": "Eliminating security concerns to enable faster releases",
-        "B": "Replacing all automation with manual processes",
-        "C": "Focusing on delivering actual value rather than just features",
-        "D": "Mandating a single technology stack for all companies"
-      },
-      "id": "Q147"
-    },
-    {
-      "question": "Why is DevSecOps seen as increasingly important?",
-      "correct_answer": "B",
-      "options": {
-        "A": "Continuous security checks can be deferred until after product release",
-        "B": "Security vulnerabilities and code quality issues must be addressed proactively, integrated across the entire DevOps pipeline",
-        "C": "DevOps teams never handle security, so DevSecOps is optional",
-        "D": "It relies only on manual penetration testing late in the cycle"
-      },
-      "id": "Q148"
-    },
-    {
-      "question": "Which trend is commonly predicted for DevOps in the near future, according to the \u201cFuture of DevOps\u201d content?",
-      "correct_answer": "C",
-      "options": {
-        "A": "A drop in automation usage",
-        "B": "A move away from cloud-native and container technologies",
-        "C": "More advanced analytics and machine learning (AIOps) integrated into DevOps processes",
-        "D": "Lengthening the release cycle to ensure minimal changes"
-      },
-      "id": "Q149"
-    },
-    {
-      "question": "Regarding culture and leadership in DevOps, one highlighted point is:",
-      "correct_answer": "C",
-      "options": {
-        "A": "Leadership\u2019s buy-in and support are not important in digital transformation",
-        "B": "Organizational silos will remain permanently",
-        "C": "Cross-functional teamwork, bridging business and IT, is critical for sustained success",
-        "D": "Only front-line engineers affect DevOps outcomes; executives have no role"
-      },
-      "id": "Q150"
-    },
-    {
-      "question": "Q9.",
-      "correct_answer": "B",
-      "options": {
-        "A": "Openness",
-        "B": "Responsibility",
-        "C": "Focus",
-        "D": "Courage"
-      },
-      "id": "Q151"
-    },
-    {
-      "question": "The Product Goal, as introduced in the 2020 Scrum Guide, is best described as:",
-      "correct_answer": "C",
-      "options": {
-        "A": "A daily to-do list for each developer",
-        "B": "A single, unchanging vision for the entire project\u2019s lifespan",
-        "C": "A long-term objective or future state that the Scrum Team plans to achieve with the product",
-        "D": "A short, end-of-day summary updated daily"
-      },
-      "id": "Q152"
-    },
-    {
-      "question": "Within Scrum, who is accountable for ensuring the Product Backlog is well managed, transparent, and prioritized?",
-      "correct_answer": "C",
-      "options": {
-        "A": "The Scrum Master",
-        "B": "The Developers",
-        "C": "The Product Owner",
-        "D": "The entire stakeholder community"
-      },
-      "id": "Q153"
-    },
-    {
-      "question": "What is the Definition of Done in the Scrum Guide (2020)?",
-      "correct_answer": "A",
-      "options": {
-        "A": "A shared agreement on when an increment meets required quality standards",
-        "B": "A vague concept decided by each developer individually",
-        "C": "A government-mandated compliance checklist",
-        "D": "A daily stand-up script"
-      },
-      "id": "Q154"
-    },
-    {
-      "question": "Q13.",
-      "correct_answer": "B",
-      "options": {
-        "A": "Teams must never remove code from production, no matter the results",
-        "B": "Frequent data collection is performed to measure a feature's effectiveness, and features may be removed if underutilized",
-        "C": "Large waterfall-style design must happen before any small experiment",
-        "D": "Feature usage is purely guesswork with no telemetry"
-      },
-      "id": "Q155"
-    },
-    {
-      "question": "Which adage references the idea that you deploy changes to production quickly but don\u2019t always release them to end users immediately?",
-      "correct_answer": "A",
-      "options": {
-        "A": "\u201cBe fast to deploy but slow to release.\u201d",
-        "B": "\u201cThe cost of change is dead.\u201d",
-        "C": "\u201cYou are the support person.\u201d",
-        "D": "\u201cComfort the customer with discomfort.\u201d"
-      },
-      "id": "Q156"
-    },
-    {
-      "question": "When the article states \u201cThe cost of change is dead,\u201d it means:",
-      "correct_answer": "A",
-      "options": {
-        "A": "Fixing production defects with short feedback loops is no longer significantly more expensive than earlier fixes",
-        "B": "All changes are guaranteed cost-free",
-        "C": "Production environment changes are so difficult they rarely happen",
-        "D": "The cost of hardware is always zero"
-      },
-      "id": "Q157"
-    },
-    {
-      "question": "According to the \u201cTop 10 Adages,\u201d \u201cConfiguration is code\u201d underscores the idea that:",
-      "correct_answer": "B",
-      "options": {
-        "A": "Configuration does not need version control or testing",
-        "B": "System configurations should be treated similarly to application code, with source control and repeatable processes",
-        "C": "The system must remain static and unchangeable",
-        "D": "Only developers can ever make changes to configuration files"
-      },
-      "id": "Q158"
-    },
-    {
-      "question": "Q17.",
-      "correct_answer": "C",
-      "options": {
-        "A": "A single long development phase with no intermediate releases",
-        "B": "Sequential waterfall phases with minimal overlap",
-        "C": "Delivering incremental functionality within fixed, short intervals (2\u20134 weeks), producing a tested executable each time",
-        "D": "Prohibiting any refactoring or rework in later phases"
-      },
-      "id": "Q159"
-    },
-    {
-      "question": "One advantage of the time box model is:",
-      "correct_answer": "A",
-      "options": {
-        "A": "You can begin development without needing all requirements upfront",
-        "B": "You must freeze all changes once the project starts",
-        "C": "The user must wait until the very end to see any working software",
-        "D": "All architecture must be finalized in the first phase"
-      },
-      "id": "Q160"
-    },
-    {
-      "question": "Q19.",
-      "correct_answer": "B",
-      "options": {
-        "A": "Highly flexible and agile with overlapping phases",
-        "B": "A \u201cdocumentation driven\u201d approach with strictly ordered sequential phases (requirements, design, code, test)",
-        "C": "Releasing code in small frequent increments",
-        "D": "Excluding any design documentation or testing steps"
-      },
-      "id": "Q161"
-    },
-    {
-      "question": "Which of the following is a common disadvantage of the waterfall model?",
-      "correct_answer": "B",
-      "options": {
-        "A": "It can accommodate changes easily at any point",
-        "B": "It can\u2019t proceed until all requirements are fully known, making it hard to adjust if things change later",
-        "C": "It has no intermediate milestones",
-        "D": "It is the best fit for extremely dynamic projects"
-      },
-      "id": "Q162"
-    },
-    {
-      "question": "(While not a formal \u201cScrum event,\u201d sprint zero is often recognized in practice.)",
-      "options": {},
-      "id": "Q163"
-    },
-    {
-      "question": "According to the \u201cWhy is Sprint Zero a Critical Activity?\u201d paper, sprint zero typically includes:",
-      "correct_answer": "B",
-      "options": {
-        "A": "No planning or environment setup, just coding all features",
-        "B": "Focus on establishing the project\u2019s vision, environment, initial backlog, and needed architecture setup",
-        "C": "Full release to end users of a final increment",
-        "D": "Final acceptance testing for the product"
-      },
-      "id": "Q164"
-    },
-    {
-      "question": "One argument supporting sprint zero is:",
-      "correct_answer": "B",
-      "options": {
-        "A": "It\u2019s optional, done only if backlog items are uncertain",
-        "B": "It ensures the team\u2019s environment, architecture decisions, and initial user stories/backlog are established before normal sprints start",
-        "C": "It always involves six months of heavy design",
-        "D": "It forbids any form of risk assessment in early stages"
-      },
-      "id": "Q165"
-    },
-    {
-      "question": "Which best describes the purpose of the 16 Critical Software Practices?",
-      "correct_answer": "B",
-      "options": {
-        "A": "They provide a set of trivial guidelines that may be ignored on large projects",
-        "B": "They outline key high-leverage disciplines to improve software projects' bottom-line measures (time, cost, quality)",
-        "C": "They are optional tips focusing exclusively on hardware testing",
-        "D": "They serve as a comprehensive legal contract replacing any other process"
-      },
-      "id": "Q166"
-    },
-    {
-      "question": "Within these practices, risk management should be:",
-      "correct_answer": "B",
-      "options": {
-        "A": "Conducted only once at project close-out",
-        "B": "Treated as a continuous process with a dedicated risk officer and ongoing tracking",
-        "C": "Delegated to external consultants after major milestones",
-        "D": "Ignored entirely if the project has a small budget"
-      },
-      "id": "Q167"
-    },
-    {
-      "question": "According to the 16 practices, effective earned value (EV) tracking requires:",
-      "correct_answer": "B",
-      "options": {
-        "A": "Using no form of baseline or budget",
-        "B": "Binary credit for tasks \u2013 0% before task completion, 100% once validated \u2013 and consistent cost/time tracking",
-        "C": "Relying only on functional managers for monthly updates",
-        "D": "Milestone decomposition for tasks lasting more than one year"
-      },
-      "id": "Q168"
-    },
-    {
-      "question": "Why does the document emphasize defect tracking against quality targets?",
-      "correct_answer": "B",
-      "options": {
-        "A": "It is optional to have any quality measures",
-        "B": "Quality targets help ensure that defects are found early and managed against an agreed baseline",
-        "C": "Projects rarely have to fix defects until user acceptance tests",
-        "D": "Production defects are always free to fix"
-      },
-      "id": "Q169"
-    },
-    {
-      "question": "When it comes to managing and tracing requirements, the 16 practices suggest:",
-      "correct_answer": "C",
-      "options": {
-        "A": "Requirements are not under change control",
-        "B": "Requirements should only be clarified in the final test stage",
-        "C": "Requirements must be documented, placed under configuration management, and traced through design, code, and test",
-        "D": "No formal approach is needed"
-      },
-      "id": "Q170"
-    },
-    {
-      "question": "One of the 16 practices states \u201cDesign Twice, Code Once.\u201d This primarily means:",
-      "correct_answer": "B",
-      "options": {
-        "A": "Build as many prototypes as possible, ignoring final design",
-        "B": "Conduct thorough architecture and design steps (and possibly re-check them) before final coding to reduce rework",
-        "C": "Each developer must produce the same module twice for redundancy",
-        "D": "No inspection is needed once the code is written"
-      },
-      "id": "Q171"
-    },
-    {
-      "question": "Which practice mentions building the code frequently (at least twice a week) and performing smoke tests?",
-      "correct_answer": "B",
-      "options": {
-        "A": "Manage Testing as a Continuous Process",
-        "B": "Compile and Smoke Test Frequently",
-        "C": "Track Earned Value",
-        "D": "Adopt Continuous Program Risk Management"
-      },
-      "id": "Q172"
-    },
-    {
-      "question": "Q8.",
-      "correct_answer": "A",
-      "options": {
-        "A": "\u201cWhat, Who, When, How, How Much?\u201d",
-        "B": "\u201cWhy, Where, Which Tools, Which Technology?\u201d",
-        "C": "\u201cGoals, Missions, Summaries, Documentation?\u201d",
-        "D": "\u201cLeasing, Real Estate, Workplace layout, Hiring processes?\u201d"
-      },
-      "id": "Q173"
-    },
-    {
-      "question": "In agile, the question of \u201cWho\u201d typically involves:",
-      "correct_answer": "C",
-      "options": {
-        "A": "Only managers specifying every detail in a top-down fashion",
-        "B": "Relying purely on a single developer for the entire project",
-        "C": "Using cross-functional teams that are often self-directed",
-        "D": "Hiring only testers until the final stage"
-      },
-      "id": "Q174"
-    },
-    {
-      "question": "Which of the following is not typically cited as a difference between agile and traditional scheduling?",
-      "correct_answer": "C",
-      "options": {
-        "A": "Agile uses shorter, iterative cycles (\u201crolling wave\u201d)",
-        "B": "Traditional often tries to plan out everything in detail upfront",
-        "C": "Agile usually adds heavy design phases before coding can begin",
-        "D": "Agile can shift details to just-in-time planning"
-      },
-      "id": "Q175"
-    },
-    {
-      "question": "In the article, a recommended approach to minimize scope creep in agile projects is:",
-      "correct_answer": "C",
-      "options": {
-        "A": "Finalize no requirements until the product is ready",
-        "B": "Fully define all tasks with extreme detail from day one",
-        "C": "Define high-level (coarse-grained) requirements up front, but allocate detailed discussions to the start of each iteration",
-        "D": "Rely on user acceptance only at the final product release"
-      },
-      "id": "Q176"
-    },
-    {
-      "question": "Hybrid agile approaches often occur in large organizations because:",
-      "correct_answer": "B",
-      "options": {
-        "A": "They never align with agile principles",
-        "B": "Large organizations already have an \u201cunspoken adaptive subculture\u201d but need structured planning, leading to a mix",
-        "C": "There\u2019s no difference from small agile teams",
-        "D": "Management prohibits the use of small teams"
-      },
-      "id": "Q177"
-    },
-    {
-      "question": "Q13.",
-      "correct_answer": "B",
-      "options": {
-        "A": "It makes all agile ceremonies optional",
-        "B": "It helps compare planned effort vs. earned value vs. actual cost to measure performance and forecast completion",
-        "C": "It removes the need for product backlog refinement",
-        "D": "It always requires single-year projects"
-      },
-      "id": "Q178"
-    },
-    {
-      "question": "In agile EVM, value is often measured in terms of:",
-      "correct_answer": "C",
-      "options": {
-        "A": "Lines of code produced",
-        "B": "Traditional phase-gate deliverables only",
-        "C": "Story points or other agile metrics representing functionality or backlog items completed",
-        "D": "The number of daily stand-ups performed"
-      },
-      "id": "Q179"
-    },
-    {
-      "question": "Using EVM on an agile project typically involves:",
-      "correct_answer": "B",
-      "options": {
-        "A": "No relationship between sprints and earned value",
-        "B": "Mapping backlog items (user stories) to planned value, tracking actual completed stories for \u201cearned\u201d value",
-        "C": "A single acceptance milestone at the end of the project",
-        "D": "Unstructured changes to cost or schedule without measurement"
-      },
-      "id": "Q180"
-    },
-    {
-      "question": "In the presentation on EVM for agile, a major benefit of combining them is:",
-      "correct_answer": "B",
-      "options": {
-        "A": "It eliminates the need for a backlog",
-        "B": "It merges the short iteration feedback with objective cost and schedule performance indicators",
-        "C": "It requires the team to skip sprint reviews",
-        "D": "It disallows changes once the baseline is set"
-      },
-      "id": "Q181"
-    },
-    {
-      "question": "Below are a few broader questions that reference multiple documents at once. You can omit or expand these as you wish.",
-      "options": {},
-      "id": "Q182"
-    },
-    {
-      "question": "Across agile methods and the 16 Critical Software Practices, an overarching theme is:",
-      "correct_answer": "B",
-      "options": {
-        "A": "Favoring developer heroics without any plan",
-        "B": "Using continuous, data-driven feedback loops (whether through risk management, EVM, or agile backlog tracking)",
-        "C": "Relying on a single sign-off at the end",
-        "D": "Minimizing collaboration across roles"
-      },
-      "id": "Q183"
-    },
-    {
-      "question": "Which of the following best reflects the notion that agile still requires fundamental management basics?",
-      "correct_answer": "C",
-      "options": {
-        "A": "Agile means no budget planning, no scheduling, and no scoping at all",
-        "B": "Agile and management are inherently incompatible",
-        "C": "Agile modifies the approach (e.g., time-boxing, incremental scoping), but doesn\u2019t eliminate the essential \u201cWhat, Who, When, How, and How Much?\u201d",
-        "D": "Managers are replaced entirely by self-organizing teams"
-      },
-      "id": "Q184"
-    },
-    {
-      "question": "In both agile and traditional environments, a risk of ignoring best practices in configuration management or requirements traceability is:",
-      "correct_answer": "A",
-      "options": {
-        "A": "Potential chaos from uncontrolled changes, difficulty verifying features, increased defects",
-        "B": "Automatic success on large government contracts",
-        "C": "Guarantee of no rework",
-        "D": "Faster releases with zero overhead"
-      },
-      "id": "Q185"
-    },
-    {
-      "question": "A. Tracking user story completion as \u201cpercent complete\u201d with partial credit",
-      "correct_answer": "B",
-      "options": {
-        "B": "Assigning story points = planned value, awarding full credit only once the story is truly completed (Done), and comparing it to actual cost",
-        "C": "Removing all reference to cost or schedule from agile",
-        "D": "Capping the backlog at 10 items for the entire project"
-      },
-      "id": "Q186"
-    },
-    {
-      "question": "Q1.",
-      "correct_answer": "C",
-      "options": {
-        "A": "The cost of raw materials used in development",
-        "B": "The budget allocated for all project tasks, regardless of completion",
-        "C": "The budgeted amount for the work actually completed (a measure of actual accomplishment)",
-        "D": "A measure only of schedule variance, not cost"
-      },
-      "id": "Q187"
-    },
-    {
-      "question": "Which of the following is a key step when calculating EV-based schedule performance?",
-      "correct_answer": "B",
-      "options": {
-        "A": "Focus on the actual cost only, ignoring planned cost",
-        "B": "Use an objective measure of task completion (e.g., 0% until done, then 100%) to credit the earned value",
-        "C": "Provide partial credit (e.g., 50%) for tasks half-finished, even if they are indefinite",
-        "D": "Only measure the longest tasks in the project"
-      },
-      "id": "Q188"
-    },
-    {
-      "question": "From the \u201cEarned Values\u201d slides, which formula represents the Schedule Variance (SV)?",
-      "correct_answer": "D",
-      "options": {
-        "A": "SV = BCWS \u2013 ACWP",
-        "B": "SV = ACWP \u2013 BCWS",
-        "C": "SV = BCWS \u2013 BCWP",
-        "D": "SV = BCWP \u2013 BCWS"
-      },
-      "id": "Q189"
-    },
-    {
-      "question": "Q4.",
-      "correct_answer": "C",
-      "options": {
-        "A": "Forces the team to follow a strict waterfall model",
-        "B": "Disallows changes to user stories once sprints have begun",
-        "C": "Integrates time-bound cost control with agile\u2019s rolling scope or iteration approach",
-        "D": "Eliminates the need for any velocity or story point metrics"
-      },
-      "id": "Q190"
-    },
-    {
-      "question": "In agile EVM, what does the \u201cBAC\u201d (Budget at Completion) metric typically represent?",
-      "correct_answer": "B",
-      "options": {
-        "A": "The final actual cost spent on the project",
-        "B": "The initial or current total budget allocated for the release / project",
-        "C": "The cost variance from an intermediate milestone",
-        "D": "The story points completed in the last sprint"
-      },
-      "id": "Q191"
-    },
-    {
-      "question": "According to the EVM for Agile approach, if your CPI (Cost Performance Index) is less than 1, it indicates:",
-      "correct_answer": "D",
-      "options": {
-        "A": "The project is under budget",
-        "B": "No correlation with budget or cost",
-        "C": "The project is on budget",
-        "D": "The project is over budget (cost overrun)"
-      },
-      "id": "Q192"
-    },
-    {
-      "question": "Q7.",
-      "correct_answer": "B",
-      "options": {
-        "A": "Plan tasks in a purely linear order with no overlap",
-        "B": "Understand how tasks rely on each other, so we can schedule them in a sequence that respects prerequisites and concurrency",
-        "C": "Remove all risk by ignoring external dependencies",
-        "D": "Always place all tasks on the critical path"
-      },
-      "id": "Q193"
-    },
-    {
-      "question": "A. List tasks in a purely textual format with no visuals",
-      "correct_answer": "B",
-      "options": {
-        "B": "Represent tasks as nodes, with durations and dependencies as edges, for analyzing scheduling paths and critical paths",
-        "C": "Replace earned value analysis",
-        "D": "Force a single top-down approach to scheduling"
-      },
-      "id": "Q194"
-    },
-    {
-      "question": "In critical path analysis, the critical path is best described as:",
-      "correct_answer": "C",
-      "options": {
-        "A": "The path that includes all non-essential tasks",
-        "B": "The path containing tasks with the greatest slack time",
-        "C": "The path through the network with zero slack that determines the minimum project duration",
-        "D": "Any path that has fewer tasks than others"
-      },
-      "id": "Q195"
-    },
-    {
-      "question": "Q10.",
-      "correct_answer": "B",
-      "options": {
-        "A": "Guarantee no schedule slip",
-        "B": "Account for risks and uncertainties, so the schedule is realistic",
-        "C": "Avoid the need for any risk management",
-        "D": "Eliminate the tasks that are not on the critical path"
-      },
-      "id": "Q196"
-    },
-    {
-      "question": "A. Detailed cost breakdown per tasks",
-      "correct_answer": "B",
-      "options": {
-        "B": "Task durations along a timeline (bar chart form) to highlight overlapping tasks and approximate start-end times",
-        "C": "The critical path with zero slack only",
-        "D": "Only tasks on the critical path"
-      },
-      "id": "Q197"
-    },
-    {
-      "question": "According to the scheduling slides, if the project is behind schedule, one potential fix (though with caution) could be:",
-      "correct_answer": "C",
-      "options": {
-        "A": "Completely ignoring the critical path",
-        "B": "Reducing communication among teams to speed up tasks",
-        "C": "Assigning more experienced personnel to the critical path tasks or splitting certain tasks to overlap",
-        "D": "Abandoning any form of risk assessment"
-      },
-      "id": "Q198"
-    },
-    {
-      "question": "Q13.",
-      "correct_answer": "D",
-      "options": {
-        "A": "Formal Risk Management",
-        "B": "Formal Inspections",
-        "C": "\u201cPeople aware management\u201d",
-        "D": "No tracking of defects is necessary if you do code reviews"
-      },
-      "id": "Q199"
-    },
-    {
-      "question": "During task identification, we break down tasks until they are:",
-      "correct_answer": "C",
-      "options": {
-        "A": "So large that they cannot be easily estimated",
-        "B": "Confusing for the team members to manage",
-        "C": "Small enough to be assigned to an individual (or small group) and estimated accurately",
-        "D": "Only 1 hour in duration"
-      },
-      "id": "Q200"
-    },
-    {
-      "question": "A. Treating each task as at least a month in duration",
-      "correct_answer": "B",
-      "options": {
-        "B": "Defining tasks in small increments with clear exit criteria, enabling fine-grained tracking",
-        "C": "Only measuring tasks at the milestone level",
-        "D": "Summing tasks by the yard"
-      },
-      "id": "Q201"
-    },
-    {
-      "question": "Q1.",
-      "correct_answer": "C",
-      "options": {
-        "A": "It measures schedule efficiency only",
-        "B": "It compares the project\u2019s Actual Cost (ACWP) to the planned cost (BCWS)",
-        "C": "It is calculated as BCWP / ACWP and reflects cost efficiency",
-        "D": "It remains above 1.0 in all phases of the project"
-      },
-      "id": "Q202"
-    },
-    {
-      "question": "A. The project is on budget",
-      "correct_answer": "C",
-      "options": {
-        "B": "The project is under budget (CPI > 1)",
-        "C": "For every dollar spent, only $0.80 of budgeted work has been earned, indicating an overrun",
-        "D": "The cost variance is always zero from now on"
-      },
-      "id": "Q203"
-    },
-    {
-      "question": "The To-Complete Performance Index (TCPI) focuses on:",
-      "correct_answer": "C",
-      "options": {
-        "A": "Past cost performance only",
-        "B": "The projected schedule variance from now until project end",
-        "C": "The cost efficiency needed on the remaining work to achieve the financial goals or budget at completion",
-        "D": "The difference between the planned and actual durations"
-      },
-      "id": "Q204"
-    },
-    {
-      "question": "If a project\u2019s CPI is 0.85 and management is re-baselining the budget to a new EAC, the relevant TCPI formula is:",
-      "correct_answer": "B",
-      "options": {
-        "A": "TCPI = (BAC \u2013 EV) / (BAC \u2013 AC)",
-        "B": "TCPI = (BAC \u2013 EV) / (EAC \u2013 AC)",
-        "C": "TCPI = AC / EV",
-        "D": "TCPI = BCWP / BCWS"
-      },
-      "id": "Q205"
-    },
-    {
-      "question": "Q5.",
-      "correct_answer": "B",
-      "options": {
-        "A": "The project is under budget",
-        "B": "The project is over budget so far (cost overrun)",
-        "C": "The project is exactly on budget",
-        "D": "The project is behind schedule"
-      },
-      "id": "Q206"
-    },
-    {
-      "question": "In EVM terms, the Cost Variance (CV) is calculated as:",
-      "correct_answer": "B",
-      "options": {
-        "A": "CV = ACWP \u2013 BCWP",
-        "B": "CV = BCWP \u2013 ACWP",
-        "C": "CV = BCWS \u2013 BCWP",
-        "D": "CV = BCWS \u2013 ACWP"
-      },
-      "id": "Q207"
-    },
-    {
-      "question": "Which best describes the Estimate at Completion (EAC) used in budget tracking?",
-      "correct_answer": "A",
-      "options": {
-        "A": "The final cost forecast if current performance trends continue",
-        "B": "The original total contract budget, ignoring actuals",
-        "C": "The difference between ACWP and BCWS",
-        "D": "The measure of schedule efficiency"
-      },
-      "id": "Q208"
-    },
-    {
-      "question": "Q8.A.recommended approach in the slides to gather individual status is:",
-      "correct_answer": "B",
-      "options": {
-        "A": "Require each developer to submit only a monthly narrative",
-        "B": "Stand-ups or short daily / weekly status updates focusing on what was done, what\u2019s next, any blockers",
-        "C": "Only rely on automated time-tracking tools with no personal involvement",
-        "D": "Gather no subjective data from the team"
-      },
-      "id": "Q209"
-    },
-    {
-      "question": "The best way to measure milestone completion is typically:",
-      "correct_answer": "B",
-      "options": {
-        "A": "Mark each milestone as 50% done when it\u2019s half started",
-        "B": "Use a binary approach (0% until fully met, then 100%)",
-        "C": "Defer measurement until the entire project completes",
-        "D": "Rely on intangible feelings from the stakeholders"
-      },
-      "id": "Q210"
-    },
-    {
-      "question": "\u201cInch-pebble tasks\u201d in project management generally means tasks that:",
-      "correct_answer": "C",
-      "options": {
-        "A": "Are each about a month in length",
-        "B": "Provide partial credit for completion",
-        "C": "Are very small (1\u20132 days) with clear acceptance criteria \u2013 a \u201cbinary quality gate\u201d",
-        "D": "Belong to no one in particular"
-      },
-      "id": "Q211"
-    },
-    {
-      "question": "Q11.",
-      "correct_answer": "C",
-      "options": {
-        "A": "Relying on assumptions that all code is error-free",
-        "B": "Using no test or inspection data \u2013 it\u2019s too costly",
-        "C": "Collecting defect data during inspections and tests, then comparing to quality targets",
-        "D": "Only measure lines of code for quality"
-      },
-      "id": "Q212"
-    },
-    {
-      "question": "Which traditional software quality indicator is about \u201ceffort to port the software from one environment to another\u201d?",
-      "correct_answer": "B",
-      "options": {
-        "A": "Maintainability",
-        "B": "Portability",
-        "C": "Integrity",
-        "D": "Usability"
-      },
-      "id": "Q213"
-    },
-    {
-      "question": "In tracking quality, defect removal efficiency can be used to measure:",
-      "correct_answer": "B",
-      "options": {
-        "A": "Whether the code compiles at all",
-        "B": "The ratio of defects found and fixed vs. total discovered eventually \u2013 a measure of test or inspection effectiveness",
-        "C": "Only out-of-memory conditions at run time",
-        "D": "The code\u2019s integration complexity"
-      },
-      "id": "Q214"
-    },
-    {
-      "question": "Orthogonal Defect Classification is mentioned as a method to:",
-      "correct_answer": "B",
-      "options": {
-        "A": "Transform all tests into cost metrics",
-        "B": "Categorize and track defects systematically by type and detection activity for process improvement",
-        "C": "Eliminate the need for defect tracking",
-        "D": "Count user stories in sprints"
-      },
-      "id": "Q215"
-    },
-    {
-      "question": "(Optional: You can omit or keep these cross-document integrative questions.)",
-      "options": {},
-      "id": "Q216"
-    },
-    {
-      "question": "Across the \u201ctwo most useful EV metrics (CPI, TCPI)\u201d and the \u201ctracking budget progress\u201d slides, combining CPI with TCPI helps project managers:",
-      "correct_answer": "A",
-      "options": {
-        "A": "Evaluate past cost performance (CPI) and the needed future cost efficiency (TCPI) to meet the final budget",
-        "B": "Only see total project schedule slip",
-        "C": "Evaluate intangible team morale",
-        "D": "Always confirm they are under budget"
-      },
-      "id": "Q217"
-    },
-    {
-      "question": "Overall, an effective tracking system for budget, schedule, and quality will typically:",
-      "correct_answer": "B",
-      "options": {
-        "A": "Be agile only, ignoring cost",
-        "B": "Provide consistent, objective data (like EVM for cost/time, milestone or inch-pebble tracking for schedule, and defect metrics for quality)",
-        "C": "Rely purely on subjective manager statements",
-        "D": "Defer progress measurement until acceptance testing"
-      },
-      "id": "Q218"
-    },
-    {
-      "question": "Which of the following is not among the basic management skills covered in the slides?",
-      "correct_answer": "C",
-      "options": {
-        "A": "Communication",
-        "B": "Delegation",
-        "C": "Public Speaking for at least 2 hours a day",
-        "D": "Motivation"
-      },
-      "id": "Q219"
-    },
-    {
-      "question": "When delegating tasks effectively, it is crucial that:",
-      "correct_answer": "B",
-      "options": {
-        "A": "The manager retains all authority and does not allow the subordinate to make decisions",
-        "B": "The subordinate is given clear objectives and the authority to carry them out",
-        "C": "No reporting schedule is established, letting them work completely alone",
-        "D": "The manager sets extremely ambiguous acceptance criteria"
-      },
-      "id": "Q220"
-    },
-    {
-      "question": "In the \u201cAdditional Basic Management Skills,\u201d which step is typically first in problem-solving?",
-      "correct_answer": "B",
-      "options": {
-        "A": "Brainstorm solutions immediately",
-        "B": "Carefully define the current situation (and clarify the real problem)",
-        "C": "Assign blame for the problem",
-        "D": "Accept partial completion as a solution"
-      },
-      "id": "Q221"
-    },
-    {
-      "question": "Q4.",
-      "correct_answer": "C",
-      "options": {
-        "A": "The manager is a facilitator, focusing on lifetime employment",
-        "B": "The manager is a negotiator, building win-win solutions",
-        "C": "The manager is an autocrat, believing employees need close supervision and are motivated by fear",
-        "D": "The manager is a coach, believing employees thrive under self-control"
-      },
-      "id": "Q222"
-    },
-    {
-      "question": "Which best describes Theory Z according to the slides?",
-      "correct_answer": "B",
-      "options": {
-        "A": "Emphasis on short-term employment and rigorous reviews",
-        "B": "Emphasis on a cooperative relationship, often with lifetime employment and holistic concern for employees",
-        "C": "Belief that people are lazy and must be forced to work",
-        "D": "Belief that minimal communication is sufficient"
-      },
-      "id": "Q223"
-    },
-    {
-      "question": "Theory W is associated with:",
-      "correct_answer": "C",
-      "options": {
-        "A": "Top-down, autocratic approach",
-        "B": "People are mostly lazy and incompetent",
-        "C": "A negotiator style aiming to align personal win conditions with project success",
-        "D": "Unchecked concurrency on tasks"
-      },
-      "id": "Q224"
-    },
-    {
-      "question": "Q7.",
-      "correct_answer": "B",
-      "options": {
-        "A": "Strictly a technical issue of code merges",
-        "B": "Opposition or pushback from stakeholders concerning features, direction, or overall project goals",
-        "C": "Always caused by incompetent leadership",
-        "D": "Something that rarely happens in real projects"
-      },
-      "id": "Q225"
-    },
-    {
-      "question": "According to the discussion about resistance stages, resistance can range from:",
-      "correct_answer": "A",
-      "options": {
-        "A": "Normative to subversive, with different severity and timing (embryonic to ripe)",
-        "B": "Always nonexistent",
-        "C": "Only after the project is done",
-        "D": "Strictly from the top-level management"
-      },
-      "id": "Q226"
-    },
-    {
-      "question": "In the paper, four project manager personas are outlined to handle resistance. One key approach is to:",
-      "correct_answer": "B",
-      "options": {
-        "A": "Always ignore or hide resistance from the team",
-        "B": "Attempt to identify the root cause of the resistance and address it with either preventive or curative measures",
-        "C": "Use only subversive methods to quell the critics",
-        "D": "Attack the resisters with blame"
-      },
-      "id": "Q227"
-    },
-    {
-      "question": "Q10.",
-      "correct_answer": "C",
-      "options": {
-        "A": "Overloading them with excessive overtime",
-        "B": "Disregarding all cultural influences",
-        "C": "Culture \u2013 establishing a conducive environment that fosters collaborative success",
-        "D": "Telling them that pay is irrelevant"
-      },
-      "id": "Q228"
-    },
-    {
-      "question": "Which statement best summarizes the CRACK acronym for a high-quality customer?",
-      "correct_answer": "A",
-      "options": {
-        "A": "Collaborative, Representative, Authorized, Committed, Knowledgeable",
-        "B": "Critical, Rude, Authorized, Costly, Kidding",
-        "C": "Cooperative, Repetitive, Agile, Consistent, Keen",
-        "D": "Customer Rework Always Costs Kaboom"
-      },
-      "id": "Q229"
-    },
-    {
-      "question": "Q12.A.scrum master and a program manager differ mainly in that:",
-      "correct_answer": "A",
-      "options": {
-        "A": "The Scrum master is typically a facilitator / coach for the scrum team, while the program manager handles HR (hiring, performance reviews, budgets)",
-        "B": "The Scrum master is an autocrat who dictates tasks, while the program manager is a purely engineering role",
-        "C": "The Scrum master and the program manager are exactly the same role in all ways",
-        "D": "The Scrum master does not require any leadership skills"
-      },
-      "id": "Q230"
-    },
-    {
-      "question": "When making effective use of people, the presentation suggests the best approach is:",
-      "correct_answer": "A",
-      "options": {
-        "A": "Provide a broad project vision, match tasks to skill levels, and keep them motivated",
-        "B": "Demand they do the same task repeatedly",
-        "C": "Avoid stating a clear vision or end goals",
-        "D": "Minimally interact with them"
-      },
-      "id": "Q231"
-    },
-    {
-      "question": "Q14.",
-      "correct_answer": "B",
-      "options": {
-        "A": "People are secondary to having a perfect process",
-        "B": "As project complexity increases, a more flexible and people-centric approach is needed",
-        "C": "Tools alone can solve all communication challenges",
-        "D": "Processes must always remain static"
-      },
-      "id": "Q232"
-    },
-    {
-      "question": "In the context of software development, a \u201cpeople-driven\u201d approach:",
-      "correct_answer": "C",
-      "options": {
-        "A": "Devalues the importance of processes",
-        "B": "Means there are no processes at all",
-        "C": "Focuses on leveraging human innovation/adaptation while ensuring processes support (enable) rather than stifle them",
-        "D": "Eliminates the need for a product backlog or scheduling"
-      },
-      "id": "Q233"
-    },
-    {
-      "question": "Q16.",
-      "correct_answer": "B",
-      "options": {
-        "A": "Certain, partial, indefinite, or negligible",
-        "B": "Very Likely, Probable, Improbable, or Impossible",
-        "C": "Always numeric from 0 to 1 only",
-        "D": "Hard-coded 50% for all items"
-      },
-      "id": "Q234"
-    },
-    {
-      "question": "Why do we examine the impact of a risk in terms of product performance, cost, and schedule?",
-      "correct_answer": "A",
-      "options": {
-        "A": "Because risk exposure is the product of probability and impact, which can appear in these key areas",
-        "B": "We only need to consider cost \u2013 schedule and performance are not relevant",
-        "C": "The impact must be measured in lines of code",
-        "D": "The slides do not mention product performance"
-      },
-      "id": "Q235"
-    },
-    {
-      "question": "Management Reserve in risk management is:",
-      "correct_answer": "B",
-      "options": {
-        "A": "A guaranteed method to remove all risks",
-        "B": "Funds/time set aside to handle recognized but not yet realized risks, used when certain risks materialize or to mitigate them",
-        "C": "A formal code repository",
-        "D": "The total project budget"
-      },
-      "id": "Q236"
-    },
-    {
-      "question": "Q1.",
-      "correct_answer": "D",
-      "options": {
-        "A": "Identify risks",
-        "B": "Analyze risks",
-        "C": "Prioritize and mitigate risks",
-        "D": "Obliterate any risk that seems serious"
-      },
-      "id": "Q237"
-    },
-    {
-      "question": "When performing qualitative probability assessment, the SEI approach uses categories:",
-      "correct_answer": "B",
-      "options": {
-        "A": "Negligible, minimal, moderate, catastrophic",
-        "B": "Very likely, probable, improbable, impossible",
-        "C": "Certain, partial, indefinite, or ephemeral",
-        "D": "Weighted integer from 1 to 6"
-      },
-      "id": "Q238"
-    },
-    {
-      "question": "Q3.A.key principle in risk mitigation is:",
-      "correct_answer": "C",
-      "options": {
-        "A": "Eliminate all potential problems by ignoring them",
-        "B": "Focus only on the highest-probability risks, ignoring all others",
-        "C": "Either reduce the probability of occurrence or reduce the impact (or both)",
-        "D": "Wait until the problem occurs, then blame the team"
-      },
-      "id": "Q239"
-    },
-    {
-      "question": "Which statement about risk tradeoffs is true?",
-      "correct_answer": "C",
-      "options": {
-        "A": "Taking action to reduce one risk never affects any other risks",
-        "B": "Any risk action automatically raises the budget by 50%",
-        "C": "Actions that reduce one risk might increase or create another",
-        "D": "Risk tradeoffs are irrelevant if cost is low"
-      },
-      "id": "Q240"
-    },
-    {
-      "question": "Q5.",
-      "correct_answer": "B",
-      "options": {
-        "A": "Overly advanced AI-based tools",
-        "B": "Ignorance or lack of awareness of good management practices",
-        "C": "Malicious sabotage by employees",
-        "D": "Over-funding from the organization"
-      },
-      "id": "Q241"
-    },
-    {
-      "question": "\u201cDysfunctional practices\u201d are also called:",
-      "correct_answer": "B",
-      "options": {
-        "A": "Best practices",
-        "B": "Anti-patterns",
-        "C": "Guaranteed solutions",
-        "D": "Cross-functional synergy"
-      },
-      "id": "Q242"
-    },
-    {
-      "question": "Q7.",
-      "correct_answer": "C",
-      "options": {
-        "A": "Random guesswork on potential issues",
-        "B": "A single question: \u201cWhat can go wrong?\u201d",
-        "C": "A structured questionnaire covering multiple domains of possible risks",
-        "D": "Full reliance on a risk officer\u2019s gut feeling"
-      },
-      "id": "Q243"
-    },
-    {
-      "question": "One sample question from the lecture was about \u201clack of tools or resources needed for the project.\u201d This is an example of:",
-      "correct_answer": "B",
-      "options": {
-        "A": "People domain",
-        "B": "Environment / support domain",
-        "C": "Product domain",
-        "D": "Customer domain"
-      },
-      "id": "Q244"
-    },
-    {
-      "question": "Q9.A.recommended approach for team development includes all the following except:",
-      "correct_answer": "B",
-      "options": {
-        "A": "Providing training to fill skill gaps",
-        "B": "Using forced rank evaluations to create competition",
-        "C": "Giving feedback and coaching",
-        "D": "Mentoring junior team members"
-      },
-      "id": "Q245"
-    },
-    {
-      "question": "Which factor is not listed as a sign of a good team?",
-      "correct_answer": "A",
-      "options": {
-        "A": "Members shift blame at every turn to protect themselves",
-        "B": "Team members help each other automatically when someone is struggling",
-        "C": "Team members say \u201cwe\u201d instead of \u201cI\u201d about achievements",
-        "D": "The team is proud of its work"
-      },
-      "id": "Q246"
-    },
-    {
-      "question": "Q11.",
-      "correct_answer": "B",
-      "options": {
-        "A": "Focus exclusively on coding tasks themselves",
-        "B": "Continuously improve their soft skills (e.g., communication, staffing, risk management)",
-        "C": "Insist that all instructions be given only in writing with no conversation",
-        "D": "Delegate all risk management to a separate group"
-      },
-      "id": "Q247"
-    },
-    {
-      "question": "Studies show that a significant portion of project failures (IBM data indicates 54%) is directly tied to:",
-      "correct_answer": "C",
-      "options": {
-        "A": "Underestimated lines of code",
-        "B": "The complexity of version control",
-        "C": "Poor or insufficient management",
-        "D": "The advanced AI solutions used"
-      },
-      "id": "Q248"
-    },
-    {
-      "question": "Q13.",
-      "correct_answer": "A",
-      "options": {
-        "A": "Selling the product on the open market",
-        "B": "Planning",
-        "C": "Scheduling",
-        "D": "Controlling"
-      },
-      "id": "Q249"
-    },
-    {
-      "question": "Common misconceptions about software project management from these slides include:",
-      "correct_answer": "B",
-      "options": {
-        "A": "That partial tasks can be used as an objective measure of progress",
-        "B": "That offering big reward once the project is late will fix everything",
-        "C": "That tasks must have objective acceptance criteria",
-        "D": "That legitimate training can help staff be more skilled"
-      },
-      "id": "Q250"
-    },
-    {
-      "question": "Which of the following is a success-oriented factor from a large study (ref. the training slides) that software project managers must master?",
-      "correct_answer": "C",
-      "options": {
-        "A": "Overcommit to tasks",
-        "B": "Plan for a meltdown once the schedule is tight",
-        "C": "Risk management",
-        "D": "No communication is needed"
-      },
-      "id": "Q251"
-    },
-    {
-      "question": "Q16.",
-      "correct_answer": "C",
-      "options": {
-        "A": "Only at the end of the project",
-        "B": "Only at the start, but not updated",
-        "C": "Continuously from concept definition to system retirement",
-        "D": "Only right before delivering"
-      },
-      "id": "Q252"
-    },
-    {
-      "question": "A. Risk items, their probabilities, and potential impacts in cost or schedule",
-      "correct_answer": "A",
-      "options": {
-        "B": "A single line stating \u201cNo risks found\u201d",
-        "C": "Full blame assignment for each risk to a specific person",
-        "D": "The final integrated build with zero issues"
-      },
-      "id": "Q253"
-    },
-    {
-      "question": "What is an essential characteristic of risk mitigation?",
-      "correct_answer": "C",
-      "options": {
-        "A": "Deny any possibility of risk",
-        "B": "Wait until it\u2019s too late, then fix the damage",
-        "C": "Monitoring identified risk items and their triggers",
-        "D": "Testing only the day before release"
-      },
-      "id": "Q254"
     }
   ]
 }

@@ -1,13 +1,17 @@
 "use client";
 
 import React, { useState } from "react";
-import { Question } from "../types";
+import { Question, Questions } from "../types";
 
 interface FlashCardProps {
   question: Question;
   onNext: () => void;
   totalQuestions: number;
   currentIndex: number;
+  correctAnswers: Questions | null;
+  incorrectAnswers: Questions | null;
+  setCorrectAnswers: (answers: Questions) => void;
+  setIncorrectAnswers: (answers: Questions) => void;
 }
 
 export default function FlashCard({
@@ -15,6 +19,10 @@ export default function FlashCard({
   onNext,
   totalQuestions,
   currentIndex,
+  correctAnswers,
+  incorrectAnswers,
+  setCorrectAnswers,
+  setIncorrectAnswers,
 }: FlashCardProps) {
   const [showAnswer, setShowAnswer] = useState(false);
   const [selectedAnswer, setSelectedAnswer] = useState<string | null>(null);
@@ -24,30 +32,14 @@ export default function FlashCard({
     setShowAnswer(true);
     const isCorrect = option === question.correct_answer;
 
-    // Track incorrect answers in local storage
-    if (!isCorrect) {
-      const incorrectQuestions = JSON.parse(
-        localStorage.getItem("incorrectQuestions") || "[]"
-      );
-      if (!incorrectQuestions.includes(question.id)) {
-        incorrectQuestions.push(question.id);
-        localStorage.setItem(
-          "incorrectQuestions",
-          JSON.stringify(incorrectQuestions)
-        );
-      }
+    if (isCorrect) {
+      setCorrectAnswers({
+        questions: [...(correctAnswers?.questions || []), question],
+      });
     } else {
-      // Remove from incorrect questions if answered correctly
-      const incorrectQuestions = JSON.parse(
-        localStorage.getItem("incorrectQuestions") || "[]"
-      );
-      const updatedIncorrect = incorrectQuestions.filter(
-        (id: string) => id !== question.id
-      );
-      localStorage.setItem(
-        "incorrectQuestions",
-        JSON.stringify(updatedIncorrect)
-      );
+      setIncorrectAnswers({
+        questions: [...(incorrectAnswers?.questions || []), question],
+      });
     }
   };
 
@@ -62,10 +54,7 @@ export default function FlashCard({
   return (
     <div className="w-full max-w-2xl mx-auto p-6">
       <div className="mb-4 text-sm text-gray-600">
-        Correctly answered:{" "}
-        {currentIndex -
-          JSON.parse(localStorage.getItem("incorrectQuestions") || "[]").length}
-        / {totalQuestions}
+        Correctly answered: {correctAnswers?.questions.length || 0}
       </div>
 
       <div className="bg-white rounded-lg shadow-lg p-6 mb-6">

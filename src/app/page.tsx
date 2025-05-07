@@ -7,69 +7,31 @@ import type { Questions } from "./types";
 export default function Home() {
   const [questions, setQuestions] = useState<Questions | null>(null);
   const [loading, setLoading] = useState(true);
-  const [questionQueue, setQuestionQueue] = useState<number[]>([]);
+  const [correctAnswers, setCorrectAnswers] = useState<Questions | null>(null);
+  const [incorrectAnswers, setIncorrectAnswers] = useState<Questions | null>(
+    null
+  );
+  const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
 
   useEffect(() => {
-    localStorage.removeItem("incorrectQuestions");
-
-    const loadQuestions = async () => {
+    const fetchQuestions = async () => {
       try {
         const response = await fetch("/data/questions.json");
-        const data = await response.json();
+        if (!response.ok) {
+          throw new Error("Failed to fetch questions");
+        }
+        const data: Questions = await response.json();
         setQuestions(data);
-
-        // Initialize question queue with sequential indices
-        const indices = Array.from(
-          { length: data.questions.length },
-          (_, i) => i
-        );
-        setQuestionQueue(indices);
       } catch (error) {
-        console.error("Error loading questions:", error);
+        console.error(error);
+        // Optionally, set an error state here to display to the user
       } finally {
         setLoading(false);
       }
     };
 
-    loadQuestions();
+    fetchQuestions();
   }, []);
-
-  const handleNext = () => {
-    if (!questions) return;
-
-    // Get incorrect question IDs from localStorage
-    const incorrectQuestions = JSON.parse(
-      localStorage.getItem("incorrectQuestions") || "[]"
-    );
-
-    // Remove current question from queue
-    const newQueue = [...questionQueue];
-    newQueue.shift();
-
-    // If we're running low on questions, check if we need to add incorrect ones
-    if (newQueue.length < 3) {
-      // Find indices of incorrect questions
-      const incorrectIndices = questions.questions
-        .map((q, index) => (incorrectQuestions.includes(q.id) ? index : -1))
-        .filter((index) => index !== -1);
-
-      // Add incorrect questions that aren't already in the queue
-      incorrectIndices.forEach((index) => {
-        if (!newQueue.includes(index)) {
-          newQueue.push(index);
-        }
-      });
-    }
-
-    // If queue is empty, we're done
-    if (newQueue.length === 0) {
-      // You could handle completion here
-      alert("You've completed all questions!");
-      return;
-    }
-
-    setQuestionQueue(newQueue);
-  };
 
   if (loading) {
     return (
@@ -79,7 +41,7 @@ export default function Home() {
     );
   }
 
-  if (!questions || questionQueue.length === 0) {
+  if (!questions) {
     return (
       <div className="min-h-screen flex items-center justify-center">
         <div className="text-xl text-red-500">Error loading questions</div>
@@ -87,9 +49,27 @@ export default function Home() {
     );
   }
 
-  const currentQuestionIndex = questionQueue[0];
+  const handleNext = () => {
+    if (questions && currentQuestionIndex < questions.questions.length - 1) {
+      const questionsArray = questions.questions;
+
+      questionsArray.shift();
+
+      setQuestions({
+        questions: questionsArray,
+      });
+    } else {
+      setQuestions({
+        questions: [...questions.questions],
+      });
+      setCorrectAnswers(null);
+      setIncorrectAnswers(null);
+      setCurrentQuestionIndex(0);
+    }
+  };
+
   const currentQuestion = questions.questions[currentQuestionIndex];
-  const progress = questions.questions.length - questionQueue.length + 1;
+  const progress = currentQuestionIndex + 1;
 
   return (
     <main className="min-h-screen bg-gray-50 py-8">
@@ -99,6 +79,10 @@ export default function Home() {
           onNext={handleNext}
           totalQuestions={questions.questions.length}
           currentIndex={progress - 1}
+          correctAnswers={correctAnswers}
+          incorrectAnswers={incorrectAnswers}
+          setCorrectAnswers={setCorrectAnswers}
+          setIncorrectAnswers={setIncorrectAnswers}
         />
       </div>
     </main>
